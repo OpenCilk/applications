@@ -50,7 +50,6 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <pthread.h>
 #include <cilk/cilk.h>
 #include <cilk/cilk_api.h>
-#include <spinlock.h>
 #else
 #define cilk_spawn
 #endif

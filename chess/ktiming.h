@@ -27,13 +27,21 @@
 
 typedef uint64_t clockmark_t;
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 uint64_t 
-ktiming_diff_usec(const clockmark_t* const start, const clockmark_t* const end);
-float 
+ktiming_diff_nsec(const clockmark_t* const start, const clockmark_t* const end);
+double
 ktiming_diff_sec(const clockmark_t* const start, const clockmark_t* const end);
 clockmark_t ktiming_getmark(void);
-void print_single_runtime(uint64_t tm_elapsed); 
 void print_runtime(uint64_t *tm_elapsed, int size); 
 void print_runtime_summary(uint64_t *tm_elapsed, int size); 
 
+#ifdef __cplusplus
+}
+#endif
+
 #endif  // _KTIMING_H_
+

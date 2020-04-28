@@ -3,23 +3,18 @@ TARGETS := chess-cover chess-cover-locking
 default: $(TARGETS)
 chess: default
 
-include ../common.mk
+include ../config.mk
 
-NOINLINE=1
-ifeq ($(NOINLINE),1)
-	CFLAGS += -Wfatal-errors -fcilk-no-inline # -flto
-	CXXFLAGS += -Wfatal-errors -fcilk-no-inline # -flto
-	LDFLAGS += # -flto
-endif
+CXXFLAGS=$(OPT) $(DBG) $(ARCH) $(CILKFLAG)
+CFLAGS=$(OPT) $(DBG) $(ARCH) $(CILKFLAG)
 
 chess-cover: chess-cover.o ktiming.o
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(LDLIBS) -o $@ chess-cover.o ktiming.o
+
 chess-cover-locking: chess-cover-locking.o ktiming.o
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(LDLIBS) -o $@ chess-cover-locking.o ktiming.o
 
-chess-cover-locking: chess-cover-locking.o $(CILKRTS_SLIB) $(PORR_SLIB)
-	$(CXX) $(CXXFLAGS) $^ $(LDFLAGS) $(LDLIBS) -o $@
-
-%: %.o
-	$(CXX) $(CXXFLAGS) $^ $(LDFLAGS) $(LDLIBS) -o $@
+chess-cover-locking.o chess-cover.o ktiming.o: ktiming.h
 
 clean:
 	rm -f $(TARGETS) *.o
