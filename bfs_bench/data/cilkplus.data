@@ -1,0 +1,802 @@
+test_file: tmp_cp.txt.
+num of runs: 1.
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  1 workers: 0.8705490 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  2 workers: 0.5329110 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  4 workers: 0.2813670 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  8 workers: 0.2075070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 12 workers: 0.1879450 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 16 workers: 0.2398920 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  1 workers: 0.7239720 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  2 workers: 0.4322440 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  4 workers: 0.2518680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  8 workers: 0.1639400 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 12 workers: 0.1596900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 16 workers: 0.1987450 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  1 workers: 0.7648940 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  2 workers: 0.4122780 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  4 workers: 0.2401900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  8 workers: 0.1681360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 12 workers: 0.1497900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 16 workers: 0.1643640 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  1 workers: 2.4058320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  2 workers: 1.1235090 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  4 workers: 0.6180900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  8 workers: 0.3613150 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 12 workers: 0.3093860 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 16 workers: 0.2622330 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  1 workers: 2.9268260 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  2 workers: 1.6446940 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  4 workers: 1.0612400 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  8 workers: 0.7652080 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 12 workers: 0.7291410 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 16 workers: 0.7458040 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  1 workers: 2.6316480 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  2 workers: 1.5466760 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  4 workers: 0.7538520 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  8 workers: 0.4781170 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 12 workers: 0.3733380 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 16 workers: 0.3907950 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  1 workers: 2.8106990 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  2 workers: 1.7069540 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  4 workers: 0.9353820 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  8 workers: 0.5246720 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 12 workers: 0.4465940 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 16 workers: 0.4633810 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  1 workers: 2.9181850 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  2 workers: 1.6592370 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  4 workers: 0.9632810 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  8 workers: 0.5621820 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 12 workers: 0.4663410 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 16 workers: 0.5407610 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  1 workers: 1.0891140 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  2 workers: 1.0492250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  4 workers: 0.8879210 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  8 workers: 0.8517220 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 12 workers: 0.8744490 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 16 workers: 1.0709350 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  1 workers: 0.9381430 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  2 workers: 1.0629630 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  4 workers: 1.1739720 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  8 workers: 1.2230520 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 12 workers: 1.2817360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 16 workers: 1.3848490 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  1 workers: 1.0143870 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  2 workers: 0.8872730 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  4 workers: 0.7510600 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  8 workers: 0.6519390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 12 workers: 0.6272800 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 16 workers: 0.6646420 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  1 workers: 2.8875910 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  2 workers: 2.0883920 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  4 workers: 1.6588610 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  8 workers: 1.4147280 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 12 workers: 1.4341120 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 16 workers: 1.8684340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  1 workers: 3.7653020 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  2 workers: 3.6875570 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  4 workers: 3.6299840 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  8 workers: 3.3909080 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 12 workers: 3.7470800 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 16 workers: 3.4035160 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  1 workers: 5.2401270 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  2 workers: 4.0712760 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  4 workers: 2.7776350 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  8 workers: 2.8726890 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 12 workers: 3.6723360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 16 workers: 5.3084240 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  1 workers: 4.1555160 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  2 workers: 3.5132020 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  4 workers: 2.9914940 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  8 workers: 2.5827680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 12 workers: 2.5723650 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 16 workers: 2.8329470 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  1 workers: 4.1107130 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  2 workers: 3.3052250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  4 workers: 3.1458900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  8 workers: 3.7202240 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 12 workers: 4.1731910 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 16 workers: 4.4545880 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  1 workers: 1.1044540 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  2 workers: 1.0906710 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  4 workers: 0.9032580 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  8 workers: 0.8422340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 12 workers: 0.8513220 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 16 workers: 1.0040510 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  1 workers: 0.9625220 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  2 workers: 1.1246030 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  4 workers: 1.1080420 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  8 workers: 1.1783110 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 12 workers: 1.2065260 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 16 workers: 1.3866320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  1 workers: 1.0521070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  2 workers: 0.9085410 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  4 workers: 0.7389550 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  8 workers: 0.6187120 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 12 workers: 0.6482190 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 16 workers: 0.6708310 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  1 workers: 2.9589680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  2 workers: 2.1552990 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  4 workers: 1.6834320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  8 workers: 1.3505040 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 12 workers: 1.3935270 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 16 workers: 1.9818150 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  1 workers: 3.8165680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  2 workers: 3.7778530 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  4 workers: 3.6335140 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  8 workers: 3.2136890 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 12 workers: 3.5098130 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 16 workers: 3.5373720 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  1 workers: 5.5769430 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  2 workers: 4.1133290 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  4 workers: 2.9833910 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  8 workers: 2.9278750 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 12 workers: 3.0898610 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 16 workers: 5.2327680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  1 workers: 4.2974940 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  2 workers: 3.6436060 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  4 workers: 2.8589350 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  8 workers: 2.5809340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 12 workers: 2.5617090 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 16 workers: 2.7831150 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  1 workers: 4.2142410 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-pp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  2 workers: 3.3328400 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-pp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  4 workers: 3.1718210 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-pp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  8 workers: 3.4154510 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-pp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 12 workers: 3.9303860 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-pp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 16 workers: 3.9452120 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/kkt_power.bin   
+BFS algorithm 0, 1 iter on  1 workers: 0.9123990 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/freescale1.bin   
+BFS algorithm 0, 1 iter on  1 workers: 0.6127120 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 0, 1 iter on  1 workers: 0.6341030 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/wikipedia-20070206.bin
+BFS algorithm 0, 1 iter on  1 workers: 1.9259470 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/grid3d-200.bin  
+BFS algorithm 0, 1 iter on  1 workers: 3.1670240 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 0, 1 iter on  1 workers: 2.5566940 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 0, 1 iter on  1 workers: 2.4392280 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out 0 test_graphs/nlpkkt160.bin
+BFS algorithm 0, 1 iter on  1 workers: 3.5315480 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/kkt_power.bin   
+BFS algorithm 0, 1 iter on  1 workers: 0.9816060 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/freescale1.bin   
+BFS algorithm 0, 1 iter on  1 workers: 0.7290160 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 0, 1 iter on  1 workers: 0.8467960 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/wikipedia-20070206.bin
+BFS algorithm 0, 1 iter on  1 workers: 2.5080340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/grid3d-200.bin  
+BFS algorithm 0, 1 iter on  1 workers: 3.5617860 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 0, 1 iter on  1 workers: 4.3664330 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 0, 1 iter on  1 workers: 3.4910390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-pp.out 0 test_graphs/nlpkkt160.bin
+BFS algorithm 0, 1 iter on  1 workers: 4.2851520 seconds, 0 errors.
+
+-------------------------------------------------
+

@@ -1,0 +1,146 @@
+test_file: perf_list.cilkplus.txt.
+num of runs: 1.
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.272032 s
+Running time 2: 0.197830 s
+Running time 3: 0.172887 s
+Running time 4: 0.159785 s
+Running time 5: 0.170496 s
+Running time 6: 0.176234 s
+Running time 7: 0.163238 s
+Running time 8: 0.167277 s
+Running time 9: 0.152120 s
+Running time 10: 0.163275 s
+Running time total: 1.795174 s
+Running time average: 0.179517 s
+Std. dev: 0.034720 s (19.34%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.175323 s
+Running time 2: 0.154712 s
+Running time 3: 0.156304 s
+Running time 4: 0.171187 s
+Running time 5: 0.147585 s
+Running time 6: 0.170719 s
+Running time 7: 0.163686 s
+Running time 8: 0.173200 s
+Running time 9: 0.164033 s
+Running time 10: 0.165495 s
+Running time total: 1.642244 s
+Running time average: 0.164224 s
+Std. dev: 0.008984 s (5.47%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.176055 s
+Running time 2: 0.143886 s
+Running time 3: 0.146109 s
+Running time 4: 0.139393 s
+Running time 5: 0.135382 s
+Running time 6: 0.138677 s
+Running time 7: 0.145206 s
+Running time 8: 0.144652 s
+Running time 9: 0.137938 s
+Running time 10: 0.137295 s
+Running time total: 1.444593 s
+Running time average: 0.144459 s
+Std. dev: 0.011725 s (8.12%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.274326 s
+Running time 2: 0.257304 s
+Running time 3: 0.278681 s
+Running time 4: 0.287184 s
+Running time 5: 0.274397 s
+Running time 6: 0.286850 s
+Running time 7: 0.288026 s
+Running time 8: 0.290958 s
+Running time 9: 0.268764 s
+Running time 10: 0.279250 s
+Running time total: 2.785740 s
+Running time average: 0.278574 s
+Std. dev: 0.010381 s (3.73%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.707382 s
+Running time 2: 0.719779 s
+Running time 3: 0.713718 s
+Running time 4: 0.722160 s
+Running time 5: 0.714099 s
+Running time 6: 0.728398 s
+Running time 7: 0.730118 s
+Running time 8: 0.732578 s
+Running time 9: 0.724042 s
+Running time 10: 0.719926 s
+Running time total: 7.212200 s
+Running time average: 0.721220 s
+Std. dev: 0.007964 s (1.10%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.348270 s
+Running time 2: 0.324739 s
+Running time 3: 0.335412 s
+Running time 4: 0.332096 s
+Running time 5: 0.335308 s
+Running time 6: 0.341215 s
+Running time 7: 0.328433 s
+Running time 8: 0.334538 s
+Running time 9: 0.343614 s
+Running time 10: 0.319890 s
+Running time total: 3.343515 s
+Running time average: 0.334351 s
+Std. dev: 0.008630 s (2.58%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.452262 s
+Running time 2: 0.412970 s
+Running time 3: 0.436576 s
+Running time 4: 0.410072 s
+Running time 5: 0.437505 s
+Running time 6: 0.404302 s
+Running time 7: 0.441956 s
+Running time 8: 0.412172 s
+Running time 9: 0.432725 s
+Running time 10: 0.443553 s
+Running time total: 4.284093 s
+Running time average: 0.428409 s
+Std. dev: 0.016896 s (3.94%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.518298 s
+Running time 2: 0.506490 s
+Running time 3: 0.522081 s
+Running time 4: 0.519831 s
+Running time 5: 0.502768 s
+Running time 6: 0.507469 s
+Running time 7: 0.502398 s
+Running time 8: 0.525827 s
+Running time 9: 0.538025 s
+Running time 10: 0.529730 s
+Running time total: 5.172917 s
+Running time average: 0.517292 s
+Std. dev: 0.012174 s (2.35%)
+
+-------------------------------------------------
+

@@ -1,0 +1,1634 @@
+test_file: perf_list.cilkplus.txt.
+num of runs: 1.
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.851471 s
+Running time 2: 0.849305 s
+Running time 3: 0.849017 s
+Running time 4: 0.849116 s
+Running time 5: 0.849111 s
+Running time 6: 0.849186 s
+Running time 7: 0.848910 s
+Running time 8: 0.849000 s
+Running time 9: 0.849149 s
+Running time 10: 0.848980 s
+Running time average: 0.849325 s
+Std. dev: 0.000001 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 0.487858 s
+Running time 2: 0.490206 s
+Running time 3: 0.489642 s
+Running time 4: 0.487956 s
+Running time 5: 0.487047 s
+Running time 6: 0.488446 s
+Running time 7: 0.488223 s
+Running time 8: 0.488492 s
+Running time 9: 0.487340 s
+Running time 10: 0.489937 s
+Running time average: 0.488515 s
+Std. dev: 0.000001 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.275651 s
+Running time 2: 0.272170 s
+Running time 3: 0.273679 s
+Running time 4: 0.272621 s
+Running time 5: 0.272943 s
+Running time 6: 0.273695 s
+Running time 7: 0.272850 s
+Running time 8: 0.273458 s
+Running time 9: 0.272405 s
+Running time 10: 0.272980 s
+Running time average: 0.273245 s
+Std. dev: 0.000001 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.173556 s
+Running time 2: 0.161675 s
+Running time 3: 0.162696 s
+Running time 4: 0.164200 s
+Running time 5: 0.162672 s
+Running time 6: 0.162693 s
+Running time 7: 0.162239 s
+Running time 8: 0.163440 s
+Running time 9: 0.163529 s
+Running time 10: 0.161967 s
+Running time average: 0.163867 s
+Std. dev: 0.000012 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.173586 s
+Running time 2: 0.140530 s
+Running time 3: 0.140952 s
+Running time 4: 0.140566 s
+Running time 5: 0.140063 s
+Running time 6: 0.141018 s
+Running time 7: 0.141208 s
+Running time 8: 0.141234 s
+Running time 9: 0.140709 s
+Running time 10: 0.140737 s
+Running time average: 0.144060 s
+Std. dev: 0.000108 s (0.07%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.213221 s
+Running time 2: 0.160680 s
+Running time 3: 0.172193 s
+Running time 4: 0.158860 s
+Running time 5: 0.155244 s
+Running time 6: 0.164679 s
+Running time 7: 0.151939 s
+Running time 8: 0.155412 s
+Running time 9: 0.156299 s
+Running time 10: 0.173196 s
+Running time average: 0.166172 s
+Std. dev: 0.000324 s (0.20%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.708997 s
+Running time 2: 0.710325 s
+Running time 3: 0.709830 s
+Running time 4: 0.710986 s
+Running time 5: 0.709930 s
+Running time 6: 0.710033 s
+Running time 7: 0.711094 s
+Running time 8: 0.709783 s
+Running time 9: 0.709755 s
+Running time 10: 0.710673 s
+Running time average: 0.710141 s
+Std. dev: 0.000000 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 0.446301 s
+Running time 2: 0.449575 s
+Running time 3: 0.450081 s
+Running time 4: 0.445883 s
+Running time 5: 0.447519 s
+Running time 6: 0.443676 s
+Running time 7: 0.448243 s
+Running time 8: 0.446743 s
+Running time 9: 0.445592 s
+Running time 10: 0.445745 s
+Running time average: 0.446936 s
+Std. dev: 0.000004 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.254311 s
+Running time 2: 0.254529 s
+Running time 3: 0.254694 s
+Running time 4: 0.255896 s
+Running time 5: 0.255660 s
+Running time 6: 0.254991 s
+Running time 7: 0.254879 s
+Running time 8: 0.255270 s
+Running time 9: 0.253657 s
+Running time 10: 0.254745 s
+Running time average: 0.254863 s
+Std. dev: 0.000000 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.166005 s
+Running time 2: 0.158133 s
+Running time 3: 0.157341 s
+Running time 4: 0.159138 s
+Running time 5: 0.159147 s
+Running time 6: 0.159689 s
+Running time 7: 0.158745 s
+Running time 8: 0.157483 s
+Running time 9: 0.158719 s
+Running time 10: 0.158954 s
+Running time average: 0.159335 s
+Std. dev: 0.000006 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.166702 s
+Running time 2: 0.137551 s
+Running time 3: 0.139880 s
+Running time 4: 0.139141 s
+Running time 5: 0.137762 s
+Running time 6: 0.142554 s
+Running time 7: 0.138432 s
+Running time 8: 0.138142 s
+Running time 9: 0.137555 s
+Running time 10: 0.138020 s
+Running time average: 0.141574 s
+Std. dev: 0.000080 s (0.06%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.179300 s
+Running time 2: 0.149674 s
+Running time 3: 0.158666 s
+Running time 4: 0.168303 s
+Running time 5: 0.155177 s
+Running time 6: 0.167235 s
+Running time 7: 0.159831 s
+Running time 8: 0.159067 s
+Running time 9: 0.162444 s
+Running time 10: 0.157930 s
+Running time average: 0.161763 s
+Std. dev: 0.000067 s (0.04%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.690087 s
+Running time 2: 0.688314 s
+Running time 3: 0.687952 s
+Running time 4: 0.688368 s
+Running time 5: 0.688256 s
+Running time 6: 0.688249 s
+Running time 7: 0.688284 s
+Running time 8: 0.688404 s
+Running time 9: 0.688307 s
+Running time 10: 0.688303 s
+Running time average: 0.688452 s
+Std. dev: 0.000000 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 0.440431 s
+Running time 2: 0.425280 s
+Running time 3: 0.437034 s
+Running time 4: 0.430207 s
+Running time 5: 0.433533 s
+Running time 6: 0.427801 s
+Running time 7: 0.434336 s
+Running time 8: 0.438556 s
+Running time 9: 0.431695 s
+Running time 10: 0.423456 s
+Running time average: 0.432233 s
+Std. dev: 0.000032 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.241316 s
+Running time 2: 0.234317 s
+Running time 3: 0.234594 s
+Running time 4: 0.234373 s
+Running time 5: 0.239069 s
+Running time 6: 0.233056 s
+Running time 7: 0.233629 s
+Running time 8: 0.233286 s
+Running time 9: 0.233902 s
+Running time 10: 0.237346 s
+Running time average: 0.235489 s
+Std. dev: 0.000008 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.160967 s
+Running time 2: 0.148355 s
+Running time 3: 0.148449 s
+Running time 4: 0.146627 s
+Running time 5: 0.147089 s
+Running time 6: 0.146523 s
+Running time 7: 0.149463 s
+Running time 8: 0.147179 s
+Running time 9: 0.148851 s
+Running time 10: 0.148277 s
+Running time average: 0.149178 s
+Std. dev: 0.000018 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.152125 s
+Running time 2: 0.126157 s
+Running time 3: 0.125641 s
+Running time 4: 0.124304 s
+Running time 5: 0.127803 s
+Running time 6: 0.126804 s
+Running time 7: 0.128375 s
+Running time 8: 0.126124 s
+Running time 9: 0.125540 s
+Running time 10: 0.125411 s
+Running time average: 0.128828 s
+Std. dev: 0.000068 s (0.05%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.150071 s
+Running time 2: 0.131513 s
+Running time 3: 0.144962 s
+Running time 4: 0.143561 s
+Running time 5: 0.145387 s
+Running time 6: 0.135906 s
+Running time 7: 0.137484 s
+Running time 8: 0.135995 s
+Running time 9: 0.142517 s
+Running time 10: 0.143968 s
+Running time average: 0.141136 s
+Std. dev: 0.000032 s (0.02%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 1.983861 s
+Running time 2: 1.984973 s
+Running time 3: 1.984754 s
+Running time 4: 1.985441 s
+Running time 5: 1.984922 s
+Running time 6: 1.985411 s
+Running time 7: 1.985420 s
+Running time 8: 1.985648 s
+Running time 9: 1.985732 s
+Running time 10: 1.985256 s
+Running time average: 1.985142 s
+Std. dev: 0.000000 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 1.097364 s
+Running time 2: 1.115809 s
+Running time 3: 1.117346 s
+Running time 4: 1.109555 s
+Running time 5: 1.109235 s
+Running time 6: 1.110786 s
+Running time 7: 1.101616 s
+Running time 8: 1.101012 s
+Running time 9: 1.100972 s
+Running time 10: 1.101495 s
+Running time average: 1.106519 s
+Std. dev: 0.000048 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.605444 s
+Running time 2: 0.607327 s
+Running time 3: 0.608197 s
+Running time 4: 0.608934 s
+Running time 5: 0.611884 s
+Running time 6: 0.608234 s
+Running time 7: 0.608391 s
+Running time 8: 0.611009 s
+Running time 9: 0.606414 s
+Running time 10: 0.608904 s
+Running time average: 0.608474 s
+Std. dev: 0.000004 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.344963 s
+Running time 2: 0.341842 s
+Running time 3: 0.341768 s
+Running time 4: 0.344306 s
+Running time 5: 0.344498 s
+Running time 6: 0.343030 s
+Running time 7: 0.342780 s
+Running time 8: 0.342033 s
+Running time 9: 0.342866 s
+Running time 10: 0.343119 s
+Running time average: 0.343120 s
+Std. dev: 0.000001 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.285938 s
+Running time 2: 0.284127 s
+Running time 3: 0.283758 s
+Running time 4: 0.283828 s
+Running time 5: 0.284927 s
+Running time 6: 0.284216 s
+Running time 7: 0.283780 s
+Running time 8: 0.285269 s
+Running time 9: 0.284492 s
+Running time 10: 0.287085 s
+Running time average: 0.284742 s
+Std. dev: 0.000001 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.281829 s
+Running time 2: 0.284131 s
+Running time 3: 0.286626 s
+Running time 4: 0.276111 s
+Running time 5: 0.302554 s
+Running time 6: 0.276980 s
+Running time 7: 0.285649 s
+Running time 8: 0.278584 s
+Running time 9: 0.282724 s
+Running time 10: 0.287953 s
+Running time average: 0.284314 s
+Std. dev: 0.000057 s (0.02%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.848151 s
+Running time 2: 2.863923 s
+Running time 3: 2.863076 s
+Running time 4: 2.863282 s
+Running time 5: 2.861645 s
+Running time 6: 2.862187 s
+Running time 7: 2.861997 s
+Running time 8: 2.862548 s
+Running time 9: 2.865692 s
+Running time 10: 2.864722 s
+Running time average: 2.861722 s
+Std. dev: 0.000024 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 1.639150 s
+Running time 2: 1.672192 s
+Running time 3: 1.652738 s
+Running time 4: 1.603574 s
+Running time 5: 1.606237 s
+Running time 6: 1.605041 s
+Running time 7: 1.607836 s
+Running time 8: 1.601837 s
+Running time 9: 1.610279 s
+Running time 10: 1.600254 s
+Running time average: 1.619914 s
+Std. dev: 0.000645 s (0.04%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 1.052068 s
+Running time 2: 1.060787 s
+Running time 3: 1.055993 s
+Running time 4: 1.053714 s
+Running time 5: 1.057928 s
+Running time 6: 1.055352 s
+Running time 7: 1.049385 s
+Running time 8: 1.063032 s
+Running time 9: 1.061255 s
+Running time 10: 1.054166 s
+Running time average: 1.056368 s
+Std. dev: 0.000019 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.759960 s
+Running time 2: 0.790849 s
+Running time 3: 0.768237 s
+Running time 4: 0.769669 s
+Running time 5: 0.775649 s
+Running time 6: 0.773021 s
+Running time 7: 0.770566 s
+Running time 8: 0.768020 s
+Running time 9: 0.769157 s
+Running time 10: 0.770934 s
+Running time average: 0.771606 s
+Std. dev: 0.000062 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.697922 s
+Running time 2: 0.716585 s
+Running time 3: 0.719610 s
+Running time 4: 0.714838 s
+Running time 5: 0.717570 s
+Running time 6: 0.718818 s
+Running time 7: 0.727935 s
+Running time 8: 0.717327 s
+Running time 9: 0.715887 s
+Running time 10: 0.715243 s
+Running time average: 0.716174 s
+Std. dev: 0.000055 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.705839 s
+Running time 2: 0.740732 s
+Running time 3: 0.725089 s
+Running time 4: 0.727902 s
+Running time 5: 0.749921 s
+Running time 6: 0.732634 s
+Running time 7: 0.742356 s
+Running time 8: 0.737101 s
+Running time 9: 0.747087 s
+Running time 10: 0.738650 s
+Running time average: 0.734731 s
+Std. dev: 0.000164 s (0.02%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.540740 s
+Running time 2: 2.525883 s
+Running time 3: 2.525518 s
+Running time 4: 2.526391 s
+Running time 5: 2.524886 s
+Running time 6: 2.525620 s
+Running time 7: 2.524792 s
+Running time 8: 2.526752 s
+Running time 9: 2.524735 s
+Running time 10: 2.525082 s
+Running time average: 2.527040 s
+Std. dev: 0.000024 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 1.463088 s
+Running time 2: 1.478590 s
+Running time 3: 1.491056 s
+Running time 4: 1.451475 s
+Running time 5: 1.481136 s
+Running time 6: 1.480564 s
+Running time 7: 1.482167 s
+Running time 8: 1.460988 s
+Running time 9: 1.460927 s
+Running time 10: 1.489698 s
+Running time average: 1.473969 s
+Std. dev: 0.000187 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.776706 s
+Running time 2: 0.780448 s
+Running time 3: 0.777717 s
+Running time 4: 0.770430 s
+Running time 5: 0.786373 s
+Running time 6: 0.784209 s
+Running time 7: 0.776479 s
+Running time 8: 0.779865 s
+Running time 9: 0.775734 s
+Running time 10: 0.788188 s
+Running time average: 0.779615 s
+Std. dev: 0.000029 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.475349 s
+Running time 2: 0.448522 s
+Running time 3: 0.449640 s
+Running time 4: 0.454772 s
+Running time 5: 0.449704 s
+Running time 6: 0.449620 s
+Running time 7: 0.452698 s
+Running time 8: 0.455293 s
+Running time 9: 0.447441 s
+Running time 10: 0.448718 s
+Running time average: 0.453176 s
+Std. dev: 0.000068 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.402052 s
+Running time 2: 0.374576 s
+Running time 3: 0.371617 s
+Running time 4: 0.376960 s
+Running time 5: 0.376276 s
+Running time 6: 0.380233 s
+Running time 7: 0.367254 s
+Running time 8: 0.379012 s
+Running time 9: 0.367013 s
+Running time 10: 0.374899 s
+Running time average: 0.376989 s
+Std. dev: 0.000097 s (0.03%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.364997 s
+Running time 2: 0.322832 s
+Running time 3: 0.320239 s
+Running time 4: 0.313191 s
+Running time 5: 0.338472 s
+Running time 6: 0.318125 s
+Running time 7: 0.330339 s
+Running time 8: 0.312703 s
+Running time 9: 0.308791 s
+Running time 10: 0.317464 s
+Running time average: 0.324715 s
+Std. dev: 0.000277 s (0.09%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.798672 s
+Running time 2: 2.775308 s
+Running time 3: 2.778374 s
+Running time 4: 2.779459 s
+Running time 5: 2.779390 s
+Running time 6: 2.780874 s
+Running time 7: 2.781811 s
+Running time 8: 2.781867 s
+Running time 9: 2.781738 s
+Running time 10: 2.781554 s
+Running time average: 2.781905 s
+Std. dev: 0.000039 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 1.660518 s
+Running time 2: 1.668351 s
+Running time 3: 1.655268 s
+Running time 4: 1.687934 s
+Running time 5: 1.676657 s
+Running time 6: 1.664822 s
+Running time 7: 1.672526 s
+Running time 8: 1.673994 s
+Running time 9: 1.704371 s
+Running time 10: 1.660957 s
+Running time average: 1.672540 s
+Std. dev: 0.000214 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.891785 s
+Running time 2: 0.891801 s
+Running time 3: 0.894645 s
+Running time 4: 0.895281 s
+Running time 5: 0.895524 s
+Running time 6: 0.889201 s
+Running time 7: 0.897587 s
+Running time 8: 0.930986 s
+Running time 9: 0.922694 s
+Running time 10: 0.929451 s
+Running time average: 0.903895 s
+Std. dev: 0.000280 s (0.03%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.533578 s
+Running time 2: 0.521941 s
+Running time 3: 0.524153 s
+Running time 4: 0.517429 s
+Running time 5: 0.524646 s
+Running time 6: 0.524453 s
+Running time 7: 0.524212 s
+Running time 8: 0.525657 s
+Running time 9: 0.521680 s
+Running time 10: 0.520583 s
+Running time average: 0.523833 s
+Std. dev: 0.000018 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.405130 s
+Running time 2: 0.393263 s
+Running time 3: 0.392949 s
+Running time 4: 0.395550 s
+Running time 5: 0.393935 s
+Running time 6: 0.394520 s
+Running time 7: 0.387063 s
+Running time 8: 0.404333 s
+Running time 9: 0.386790 s
+Running time 10: 0.391866 s
+Running time average: 0.394540 s
+Std. dev: 0.000037 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.372419 s
+Running time 2: 0.444294 s
+Running time 3: 0.436914 s
+Running time 4: 0.427538 s
+Running time 5: 0.408130 s
+Running time 6: 0.418039 s
+Running time 7: 0.434342 s
+Running time 8: 0.427712 s
+Running time 9: 0.412289 s
+Running time 10: 0.420132 s
+Running time average: 0.420181 s
+Std. dev: 0.000407 s (0.10%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.873434 s
+Running time 2: 2.876563 s
+Running time 3: 2.878177 s
+Running time 4: 2.880253 s
+Running time 5: 2.878923 s
+Running time 6: 2.878993 s
+Running time 7: 2.878562 s
+Running time 8: 2.879062 s
+Running time 9: 2.878655 s
+Running time 10: 2.878498 s
+Running time average: 2.878112 s
+Std. dev: 0.000004 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 1.649462 s
+Running time 2: 1.649161 s
+Running time 3: 1.643190 s
+Running time 4: 1.628114 s
+Running time 5: 1.644158 s
+Running time 6: 1.641139 s
+Running time 7: 1.646485 s
+Running time 8: 1.656782 s
+Running time 9: 1.654833 s
+Running time 10: 1.651114 s
+Running time average: 1.646444 s
+Std. dev: 0.000066 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.882282 s
+Running time 2: 0.884377 s
+Running time 3: 0.884488 s
+Running time 4: 0.888440 s
+Running time 5: 0.890601 s
+Running time 6: 0.890716 s
+Running time 7: 0.887277 s
+Running time 8: 0.896543 s
+Running time 9: 0.890956 s
+Running time 10: 0.888803 s
+Running time average: 0.888448 s
+Std. dev: 0.000017 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.577071 s
+Running time 2: 0.556434 s
+Running time 3: 0.554067 s
+Running time 4: 0.557678 s
+Running time 5: 0.556258 s
+Running time 6: 0.563039 s
+Running time 7: 0.560026 s
+Running time 8: 0.560137 s
+Running time 9: 0.554336 s
+Running time 10: 0.559177 s
+Running time average: 0.559822 s
+Std. dev: 0.000044 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.454649 s
+Running time 2: 0.444444 s
+Running time 3: 0.447511 s
+Running time 4: 0.444589 s
+Running time 5: 0.447407 s
+Running time 6: 0.450050 s
+Running time 7: 0.446916 s
+Running time 8: 0.455978 s
+Running time 9: 0.453066 s
+Running time 10: 0.457890 s
+Running time average: 0.450250 s
+Std. dev: 0.000023 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.484440 s
+Running time 2: 0.511787 s
+Running time 3: 0.525249 s
+Running time 4: 0.517512 s
+Running time 5: 0.539870 s
+Running time 6: 0.528171 s
+Running time 7: 0.522392 s
+Running time 8: 0.512785 s
+Running time 9: 0.513386 s
+Running time 10: 0.513225 s
+Running time average: 0.516882 s
+Std. dev: 0.000209 s (0.04%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 1.061950 s
+Running time 2: 1.055000 s
+Running time 3: 1.054827 s
+Running time 4: 1.054809 s
+Running time 5: 1.054946 s
+Running time 6: 1.054676 s
+Running time 7: 1.055969 s
+Running time 8: 1.054899 s
+Running time 9: 1.055192 s
+Running time 10: 1.055157 s
+Running time average: 1.055743 s
+Std. dev: 0.000005 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 0.931650 s
+Running time 2: 0.935375 s
+Running time 3: 0.916711 s
+Running time 4: 0.926558 s
+Running time 5: 0.905311 s
+Running time 6: 0.908216 s
+Running time 7: 0.897482 s
+Running time 8: 0.892104 s
+Running time 9: 0.916101 s
+Running time 10: 0.902708 s
+Running time average: 0.913222 s
+Std. dev: 0.000213 s (0.02%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.817845 s
+Running time 2: 0.772549 s
+Running time 3: 0.761035 s
+Running time 4: 0.728376 s
+Running time 5: 0.740139 s
+Running time 6: 0.745508 s
+Running time 7: 0.740348 s
+Running time 8: 0.746634 s
+Running time 9: 0.749544 s
+Running time 10: 0.735077 s
+Running time average: 0.753706 s
+Std. dev: 0.000668 s (0.09%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.774060 s
+Running time 2: 0.664435 s
+Running time 3: 0.680882 s
+Running time 4: 0.676006 s
+Running time 5: 0.666150 s
+Running time 6: 0.643705 s
+Running time 7: 0.666805 s
+Running time 8: 0.674882 s
+Running time 9: 0.668811 s
+Running time 10: 0.678796 s
+Running time average: 0.679453 s
+Std. dev: 0.001215 s (0.18%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.810564 s
+Running time 2: 0.640304 s
+Running time 3: 0.645131 s
+Running time 4: 0.641303 s
+Running time 5: 0.647796 s
+Running time 6: 0.658185 s
+Running time 7: 0.636965 s
+Running time 8: 0.641608 s
+Running time 9: 0.628551 s
+Running time 10: 0.630245 s
+Running time average: 0.658065 s
+Std. dev: 0.002943 s (0.45%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/kkt_power.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.952923 s
+Running time 2: 0.671302 s
+Running time 3: 0.680910 s
+Running time 4: 0.667160 s
+Running time 5: 0.666430 s
+Running time 6: 0.645141 s
+Running time 7: 0.651413 s
+Running time 8: 0.664489 s
+Running time 9: 0.694170 s
+Running time 10: 0.674422 s
+Running time average: 0.696836 s
+Std. dev: 0.008287 s (1.19%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.895227 s
+Running time 2: 0.884191 s
+Running time 3: 0.883526 s
+Running time 4: 0.885890 s
+Running time 5: 0.882887 s
+Running time 6: 0.884971 s
+Running time 7: 0.884924 s
+Running time 8: 0.884632 s
+Running time 9: 0.885426 s
+Running time 10: 0.883512 s
+Running time average: 0.885519 s
+Std. dev: 0.000013 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 0.914170 s
+Running time 2: 0.853028 s
+Running time 3: 0.822803 s
+Running time 4: 0.851454 s
+Running time 5: 0.841003 s
+Running time 6: 0.830002 s
+Running time 7: 0.835324 s
+Running time 8: 0.826792 s
+Running time 9: 0.831653 s
+Running time 10: 0.846386 s
+Running time average: 0.845262 s
+Std. dev: 0.000692 s (0.08%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.817306 s
+Running time 2: 0.710451 s
+Running time 3: 0.696088 s
+Running time 4: 0.668732 s
+Running time 5: 0.670260 s
+Running time 6: 0.684417 s
+Running time 7: 0.667547 s
+Running time 8: 0.698655 s
+Running time 9: 0.679056 s
+Running time 10: 0.676213 s
+Running time average: 0.696872 s
+Std. dev: 0.001995 s (0.29%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.805684 s
+Running time 2: 0.633198 s
+Running time 3: 0.641584 s
+Running time 4: 0.614279 s
+Running time 5: 0.606331 s
+Running time 6: 0.592749 s
+Running time 7: 0.602795 s
+Running time 8: 0.607312 s
+Running time 9: 0.591967 s
+Running time 10: 0.607850 s
+Running time average: 0.630375 s
+Std. dev: 0.004044 s (0.64%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.844529 s
+Running time 2: 0.637257 s
+Running time 3: 0.626310 s
+Running time 4: 0.614495 s
+Running time 5: 0.602001 s
+Running time 6: 0.610757 s
+Running time 7: 0.620159 s
+Running time 8: 0.613857 s
+Running time 9: 0.632248 s
+Running time 10: 0.635849 s
+Running time average: 0.643746 s
+Std. dev: 0.005110 s (0.79%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/freescale1.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 1.065262 s
+Running time 2: 0.667151 s
+Running time 3: 0.695213 s
+Running time 4: 0.665543 s
+Running time 5: 0.666745 s
+Running time 6: 0.641812 s
+Running time 7: 0.635439 s
+Running time 8: 0.631685 s
+Running time 9: 0.623654 s
+Running time 10: 0.613606 s
+Running time average: 0.690611 s
+Std. dev: 0.017938 s (2.60%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.976003 s
+Running time 2: 0.968974 s
+Running time 3: 0.972650 s
+Running time 4: 0.971513 s
+Running time 5: 0.968816 s
+Running time 6: 0.971257 s
+Running time 7: 0.972284 s
+Running time 8: 0.968934 s
+Running time 9: 0.968992 s
+Running time 10: 0.968724 s
+Running time average: 0.970815 s
+Std. dev: 0.000006 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 0.844312 s
+Running time 2: 0.780358 s
+Running time 3: 0.776676 s
+Running time 4: 0.767023 s
+Running time 5: 0.807578 s
+Running time 6: 0.772356 s
+Running time 7: 0.794519 s
+Running time 8: 0.783688 s
+Running time 9: 0.776181 s
+Running time 10: 0.753341 s
+Running time average: 0.785603 s
+Std. dev: 0.000641 s (0.08%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 0.625020 s
+Running time 2: 0.595737 s
+Running time 3: 0.583230 s
+Running time 4: 0.597795 s
+Running time 5: 0.583526 s
+Running time 6: 0.581136 s
+Running time 7: 0.619793 s
+Running time 8: 0.576333 s
+Running time 9: 0.587166 s
+Running time 10: 0.596050 s
+Running time average: 0.594579 s
+Std. dev: 0.000266 s (0.04%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 0.561915 s
+Running time 2: 0.485665 s
+Running time 3: 0.479013 s
+Running time 4: 0.487132 s
+Running time 5: 0.470039 s
+Running time 6: 0.486943 s
+Running time 7: 0.469253 s
+Running time 8: 0.486309 s
+Running time 9: 0.484695 s
+Running time 10: 0.474399 s
+Running time average: 0.488536 s
+Std. dev: 0.000713 s (0.15%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 0.563409 s
+Running time 2: 0.455261 s
+Running time 3: 0.454073 s
+Running time 4: 0.463218 s
+Running time 5: 0.448106 s
+Running time 6: 0.463962 s
+Running time 7: 0.464135 s
+Running time 8: 0.466200 s
+Running time 9: 0.462057 s
+Running time 10: 0.464312 s
+Running time average: 0.470473 s
+Std. dev: 0.001100 s (0.23%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 0.652634 s
+Running time 2: 0.495864 s
+Running time 3: 0.468338 s
+Running time 4: 0.472260 s
+Running time 5: 0.484974 s
+Running time 6: 0.490388 s
+Running time 7: 0.468639 s
+Running time 8: 0.476196 s
+Running time 9: 0.471596 s
+Running time 10: 0.489842 s
+Running time average: 0.497073 s
+Std. dev: 0.003087 s (0.62%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.821169 s
+Running time 2: 2.812541 s
+Running time 3: 2.812443 s
+Running time 4: 2.811951 s
+Running time 5: 2.811322 s
+Running time 6: 2.811005 s
+Running time 7: 2.810602 s
+Running time 8: 2.810911 s
+Running time 9: 2.810802 s
+Running time 10: 2.810373 s
+Running time average: 2.812312 s
+Std. dev: 0.000010 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 2.040933 s
+Running time 2: 1.975692 s
+Running time 3: 1.988185 s
+Running time 4: 1.953459 s
+Running time 5: 1.951463 s
+Running time 6: 1.987012 s
+Running time 7: 2.010314 s
+Running time 8: 1.956925 s
+Running time 9: 1.971803 s
+Running time 10: 1.942968 s
+Running time average: 1.977875 s
+Std. dev: 0.000912 s (0.05%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 1.527920 s
+Running time 2: 1.433714 s
+Running time 3: 1.444149 s
+Running time 4: 1.517283 s
+Running time 5: 1.452993 s
+Running time 6: 1.541101 s
+Running time 7: 1.448869 s
+Running time 8: 1.579205 s
+Running time 9: 1.516333 s
+Running time 10: 1.505312 s
+Running time average: 1.496688 s
+Std. dev: 0.002396 s (0.16%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 1.346342 s
+Running time 2: 1.234437 s
+Running time 3: 1.197067 s
+Running time 4: 1.208881 s
+Running time 5: 1.217308 s
+Running time 6: 1.210265 s
+Running time 7: 1.196966 s
+Running time 8: 1.188920 s
+Running time 9: 1.143159 s
+Running time 10: 1.265244 s
+Running time average: 1.220859 s
+Std. dev: 0.002929 s (0.24%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 1.494125 s
+Running time 2: 1.186388 s
+Running time 3: 1.120304 s
+Running time 4: 1.118801 s
+Running time 5: 1.164592 s
+Running time 6: 1.170785 s
+Running time 7: 1.162505 s
+Running time 8: 1.175730 s
+Running time 9: 1.138049 s
+Running time 10: 1.104664 s
+Running time average: 1.183594 s
+Std. dev: 0.012664 s (1.07%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/wikipedia-20070206.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 1.823352 s
+Running time 2: 1.170774 s
+Running time 3: 1.121225 s
+Running time 4: 1.176815 s
+Running time 5: 1.157437 s
+Running time 6: 1.197475 s
+Running time 7: 1.154346 s
+Running time 8: 1.148951 s
+Running time 9: 1.205086 s
+Running time 10: 1.155311 s
+Running time average: 1.231077 s
+Std. dev: 0.043893 s (3.57%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.635512 s
+Running time 2: 3.615152 s
+Running time 3: 3.615981 s
+Running time 4: 3.615484 s
+Running time 5: 3.616337 s
+Running time 6: 3.616229 s
+Running time 7: 3.628916 s
+Running time 8: 3.630421 s
+Running time 9: 3.619079 s
+Running time 10: 3.618532 s
+Running time average: 3.621164 s
+Std. dev: 0.000056 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 3.407987 s
+Running time 2: 3.262082 s
+Running time 3: 3.282861 s
+Running time 4: 3.273328 s
+Running time 5: 3.227630 s
+Running time 6: 3.266272 s
+Running time 7: 3.261522 s
+Running time 8: 3.287039 s
+Running time 9: 3.251034 s
+Running time 10: 3.289819 s
+Running time average: 3.280957 s
+Std. dev: 0.002334 s (0.07%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 3.058769 s
+Running time 2: 2.820825 s
+Running time 3: 2.812160 s
+Running time 4: 2.839688 s
+Running time 5: 2.803515 s
+Running time 6: 2.800193 s
+Running time 7: 2.790105 s
+Running time 8: 2.744565 s
+Running time 9: 2.751343 s
+Running time 10: 2.784957 s
+Running time average: 2.820612 s
+Std. dev: 0.007850 s (0.28%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 2.649370 s
+Running time 2: 2.487305 s
+Running time 3: 2.451130 s
+Running time 4: 2.468715 s
+Running time 5: 2.402983 s
+Running time 6: 2.408108 s
+Running time 7: 2.413796 s
+Running time 8: 2.416024 s
+Running time 9: 2.415919 s
+Running time 10: 2.391142 s
+Running time average: 2.450449 s
+Std. dev: 0.005838 s (0.24%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 2.726067 s
+Running time 2: 2.473997 s
+Running time 3: 2.460565 s
+Running time 4: 2.490931 s
+Running time 5: 2.502053 s
+Running time 6: 2.365864 s
+Running time 7: 2.345475 s
+Running time 8: 2.350439 s
+Running time 9: 2.357465 s
+Running time 10: 2.382131 s
+Running time average: 2.445499 s
+Std. dev: 0.013574 s (0.56%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/grid3d-200.bin  
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 2.794920 s
+Running time 2: 2.563757 s
+Running time 3: 2.608495 s
+Running time 4: 2.418211 s
+Running time 5: 2.338131 s
+Running time 6: 2.373015 s
+Running time 7: 2.367167 s
+Running time 8: 2.334204 s
+Running time 9: 2.314210 s
+Running time 10: 2.316925 s
+Running time average: 2.442903 s
+Std. dev: 0.025822 s (1.06%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 4.830807 s
+Running time 2: 4.716286 s
+Running time 3: 4.712093 s
+Running time 4: 4.704519 s
+Running time 5: 4.708438 s
+Running time 6: 4.707588 s
+Running time 7: 4.705570 s
+Running time 8: 4.704948 s
+Running time 9: 4.704664 s
+Running time 10: 4.705947 s
+Running time average: 4.720086 s
+Std. dev: 0.001528 s (0.03%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 3.597928 s
+Running time 2: 3.509163 s
+Running time 3: 3.461738 s
+Running time 4: 3.435716 s
+Running time 5: 3.335961 s
+Running time 6: 3.394767 s
+Running time 7: 3.645226 s
+Running time 8: 3.323564 s
+Running time 9: 3.540542 s
+Running time 10: 3.458018 s
+Running time average: 3.470262 s
+Std. dev: 0.011115 s (0.32%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 2.826209 s
+Running time 2: 2.608300 s
+Running time 3: 2.516606 s
+Running time 4: 2.419407 s
+Running time 5: 2.671264 s
+Running time 6: 2.362854 s
+Running time 7: 2.395952 s
+Running time 8: 2.704925 s
+Running time 9: 2.671620 s
+Running time 10: 2.472516 s
+Running time average: 2.564965 s
+Std. dev: 0.023764 s (0.93%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 2.404064 s
+Running time 2: 2.273240 s
+Running time 3: 2.211855 s
+Running time 4: 2.171737 s
+Running time 5: 2.205048 s
+Running time 6: 2.268888 s
+Running time 7: 2.140738 s
+Running time 8: 2.105843 s
+Running time 9: 2.124541 s
+Running time 10: 2.108477 s
+Running time average: 2.201443 s
+Std. dev: 0.008794 s (0.40%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 2.673782 s
+Running time 2: 2.564139 s
+Running time 3: 2.308656 s
+Running time 4: 2.208304 s
+Running time 5: 2.058282 s
+Running time 6: 2.144736 s
+Running time 7: 2.032987 s
+Running time 8: 2.068658 s
+Running time 9: 1.952265 s
+Running time 10: 1.929951 s
+Running time average: 2.194176 s
+Std. dev: 0.063465 s (2.89%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 3.183764 s
+Running time 2: 2.954457 s
+Running time 3: 2.819535 s
+Running time 4: 2.460903 s
+Running time 5: 2.580873 s
+Running time 6: 2.340960 s
+Running time 7: 2.349560 s
+Running time 8: 2.352903 s
+Running time 9: 2.248812 s
+Running time 10: 2.216046 s
+Running time average: 2.550781 s
+Std. dev: 0.107971 s (4.23%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.975308 s
+Running time 2: 3.960961 s
+Running time 3: 3.958241 s
+Running time 4: 3.959018 s
+Running time 5: 3.947507 s
+Running time 6: 3.946499 s
+Running time 7: 3.946738 s
+Running time 8: 3.948627 s
+Running time 9: 3.946446 s
+Running time 10: 3.946240 s
+Running time average: 3.953559 s
+Std. dev: 0.000093 s (0.00%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 3.165384 s
+Running time 2: 3.050904 s
+Running time 3: 2.995902 s
+Running time 4: 3.098094 s
+Running time 5: 3.020380 s
+Running time 6: 3.001899 s
+Running time 7: 3.033591 s
+Running time 8: 3.087414 s
+Running time 9: 3.073872 s
+Running time 10: 3.017273 s
+Running time average: 3.054471 s
+Std. dev: 0.002762 s (0.09%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 2.441707 s
+Running time 2: 2.293521 s
+Running time 3: 2.276046 s
+Running time 4: 2.275967 s
+Running time 5: 2.270496 s
+Running time 6: 2.346313 s
+Running time 7: 2.334381 s
+Running time 8: 2.252134 s
+Running time 9: 2.276130 s
+Running time 10: 2.336518 s
+Running time average: 2.310321 s
+Std. dev: 0.003178 s (0.14%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 2.148984 s
+Running time 2: 2.047507 s
+Running time 3: 1.975681 s
+Running time 4: 2.042348 s
+Running time 5: 1.973431 s
+Running time 6: 1.952486 s
+Running time 7: 1.945429 s
+Running time 8: 1.907913 s
+Running time 9: 1.995503 s
+Running time 10: 1.910859 s
+Running time average: 1.990014 s
+Std. dev: 0.005359 s (0.27%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 2.143829 s
+Running time 2: 1.802503 s
+Running time 3: 1.773116 s
+Running time 4: 1.831574 s
+Running time 5: 1.786148 s
+Running time 6: 1.797091 s
+Running time 7: 1.755840 s
+Running time 8: 2.065442 s
+Running time 9: 1.833725 s
+Running time 10: 1.803237 s
+Running time average: 1.859251 s
+Std. dev: 0.017622 s (0.95%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 2.724668 s
+Running time 2: 1.872374 s
+Running time 3: 1.872090 s
+Running time 4: 1.819470 s
+Running time 5: 1.794663 s
+Running time 6: 1.813127 s
+Running time 7: 1.766522 s
+Running time 8: 1.863163 s
+Running time 9: 1.823398 s
+Running time 10: 1.833944 s
+Running time average: 1.918342 s
+Std. dev: 0.081421 s (4.24%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=1 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.948919 s
+Running time 2: 3.924564 s
+Running time 3: 3.920713 s
+Running time 4: 3.912802 s
+Running time 5: 3.936697 s
+Running time 6: 3.886836 s
+Running time 7: 3.943135 s
+Running time 8: 3.897537 s
+Running time 9: 3.905505 s
+Running time 10: 3.940765 s
+Running time average: 3.921747 s
+Std. dev: 0.000438 s (0.01%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=2 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  2 workers, 0 errors.
+Running time 1: 2.795935 s
+Running time 2: 2.710956 s
+Running time 3: 2.669758 s
+Running time 4: 2.585058 s
+Running time 5: 2.587588 s
+Running time 6: 2.551896 s
+Running time 7: 2.588095 s
+Running time 8: 2.560794 s
+Running time 9: 2.547878 s
+Running time 10: 2.547873 s
+Running time average: 2.614583 s
+Std. dev: 0.007027 s (0.27%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=4 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  4 workers, 0 errors.
+Running time 1: 2.239147 s
+Running time 2: 1.968926 s
+Running time 3: 1.871835 s
+Running time 4: 1.876784 s
+Running time 5: 1.910817 s
+Running time 6: 1.942230 s
+Running time 7: 1.907229 s
+Running time 8: 1.888247 s
+Running time 9: 1.900852 s
+Running time 10: 1.935950 s
+Running time average: 1.944202 s
+Std. dev: 0.011661 s (0.60%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=8 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on  8 workers, 0 errors.
+Running time 1: 2.080024 s
+Running time 2: 1.660055 s
+Running time 3: 1.638436 s
+Running time 4: 1.625447 s
+Running time 5: 1.720968 s
+Running time 6: 1.581520 s
+Running time 7: 1.589367 s
+Running time 8: 1.538383 s
+Running time 9: 1.567825 s
+Running time 10: 1.519254 s
+Running time average: 1.652128 s
+Std. dev: 0.026158 s (1.58%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=12 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 12 workers, 0 errors.
+Running time 1: 2.258188 s
+Running time 2: 1.609850 s
+Running time 3: 1.566371 s
+Running time 4: 1.555056 s
+Running time 5: 1.604381 s
+Running time 6: 1.559546 s
+Running time 7: 1.609611 s
+Running time 8: 1.542912 s
+Running time 9: 1.488942 s
+Running time 10: 1.530208 s
+Running time average: 1.632506 s
+Std. dev: 0.049789 s (3.05%)
+
+-------------------------------------------------
+
+START: CILK_NWORKERS=16 ./bfs-sp.out test_graphs/nlpkkt160.bin
+BFS algorithm 1, 1 iter on 16 workers, 0 errors.
+Running time 1: 2.679048 s
+Running time 2: 1.692648 s
+Running time 3: 1.664838 s
+Running time 4: 1.697259 s
+Running time 5: 1.698452 s
+Running time 6: 1.669978 s
+Running time 7: 1.659767 s
+Running time 8: 1.604572 s
+Running time 9: 1.526427 s
+Running time 10: 1.588879 s
+Running time average: 1.748187 s
+Std. dev: 0.110080 s (6.30%)
+
+-------------------------------------------------
+

@@ -1,0 +1,159 @@
+test_file: tmp.txt.
+num of runs: 1.
+START: ./bfs.out test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.862575 s
+Running time average: 0.862575 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                        1027 (516/511)
+
+-------------------------------------------------
+
+START: ./bfs.out test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+stat: 874.
+stat: 874.
+global: 1748.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.726198 s
+Running time average: 0.726198 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                        1748 (874/874)
+
+-------------------------------------------------
+
+START: ./bfs.out test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+stat: 382.
+stat: 384.
+global: 766.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.720559 s
+Running time average: 0.720559 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                         766 (382/384)
+
+-------------------------------------------------
+
+START: ./bfs.out test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+stat: 791.
+stat: 840.
+global: 1631.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.095146 s
+Running time average: 2.095146 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                        1631 (791/840)
+
+-------------------------------------------------
+
+START: ./bfs.out test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+stat: 2117.
+stat: 2115.
+global: 4232.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.952672 s
+Running time average: 2.952672 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                        4232 (2117/2115)
+
+-------------------------------------------------
+
+START: ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+stat: 70904.
+stat: 365.
+global: 71269.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.902705 s
+Running time average: 2.902705 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                       71269 (70904/365)
+
+-------------------------------------------------
+
+START: ./bfs.out test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+stat: 1272.
+stat: 1275.
+global: 2547.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.807695 s
+Running time average: 2.807695 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                        2547 (1272/1275)
+
+-------------------------------------------------
+
+START: ./bfs.out test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+stat: 2126.
+stat: 2048.
+global: 4174.
+BFS algorithm 1, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.993907 s
+Running time average: 2.993907 s
+XX total pages used for stack                             2
+XX pages on stack at the end                              0
+XX max num of pages on a stack (ave: 0.000)               0
+XX total pages used for reducer map                       1
+XX total tlmm addr allocated                              2
+XX total tlmm addr requested                              2
+XX total views created                                    0
+XX total lookup                                        4174 (2126/2048)
+
+-------------------------------------------------
+

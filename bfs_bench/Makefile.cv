@@ -1,0 +1,85 @@
+# This is Makefile used for generating code to use with cilkview
+cilkm_dir = /scratch/angelee/cilk_dev/cilk-M/src_for_IntelCC
+CILKUTIL_INC = -I/scratch/angelee/cilkutil/include/cilktools
+
+AS = as
+RTSDEF = -DCILKM_RTS=0 -DCILKVIEW=1
+LIBS = -ltbbmalloc -ltbb
+INC = -I$(cilkm_dir)/cilkplus_tests/hyperobjs \
+      -I$(cilkm_dir)/cilkplus_tests/hyperobjs/reducer_lib $(CILKUTIL_INC)
+
+COMPUTE_INTENSE = -DCOMPUTE_INTENSE
+COMPUTE_PARENTS = -DCOMPUTE_PARENTS
+REDUCER_ARRAY = -DUSE_REDUCER_ARRAY
+PARALLEL_REDUCE = -DPARALLEL_REDUCE
+
+CILK = icpc
+CILKFLAGS = -O2
+LDFLAGS = -L$(CURDIR)
+
+BFS_SRC = bfs.cpp
+GRAPH_SRC = graph.cpp graph.h reducer_min_uint.h
+BAG_SRC = $(cilkm_dir)/cilkplus_tests/hyperobjs/reducer_lib/bag.cpp \
+         $(cilkm_dir)/cilkplus_tests/hyperobjs/reducer_lib/bag.h
+
+BFS_P_S = bfs-p.s
+GRAPH_P_S = graph-p.s
+
+BFS_P_O = bfs-p.o
+GRAPH_P_O = graph-p.o
+
+BFS_S = bfs.s
+GRAPH_S = graph.s
+BAG_S = bag.s
+
+BFS_O = bfs.o
+GRAPH_O = graph.o
+BAG_O = bag.o
+
+TARGETS = bfs.out bfs-p.out
+OBJECTS = $(BFS_O) $(GRAPH_O) $(BAG_O) $(BFS_P_O) $(GRAPH_P_O)
+ASSEMBLY = $(BFS_S) $(GRAPH_S) $(BAG_S) $(BFS_P_S) $(GRAPH_P_S)
+
+.PHONY: clean
+
+all: $(TARGETS)
+
+$(BFS_P_S): $(BFS_SRC)
+$(GRAPH_P_S): $(GRAPH_SRC)
+
+$(BFS_P_O): $(BFS_P_S)
+$(GRAPH_P_O): $(GRAPH_P_S)
+
+$(BFS_S): $(BFS_SRC)
+$(GRAPH_S): $(GRAPH_SRC)
+$(BAG_S): $(BAG_SRC)
+
+$(BFS_O): $(BFS_S)
+$(GRAPH_O): $(GRAPH_S)
+$(BAG_O): $(BAG_S)
+
+bag.s: $(BAG_SRC)
+	$(CILK) $(CILKFLAGS) -S $(INC) $(RTSDEF) $<
+
+%-p.s: %.cpp
+	$(CILK) $(CILKFLAGS) -S $(INC) $(RTSDEF) $(COMPUTE_PARENTS)=1 $(REDUCER_ARRAY)=1 $(PARALLEL_REDUCE)=1 -o $@ $<
+	./repair-zca.pl $@ > tmp.s
+	mv -f tmp.s $@
+
+%.s: %.cpp
+	$(CILK) $(CILKFLAGS) -S $(INC) $(RTSDEF) $<
+	./repair-zca.pl $@ > tmp.s
+	mv -f tmp.s $@
+
+%.o: %.s
+	$(AS) $< -o $@
+
+bfs.out : $(BFS_O) $(GRAPH_O) $(BAG_O)
+	$(CILK) $(CILKFLAGS) $(LDFLAGS) $(LIBS) $(RTSDEF) $< -o $@
+
+bfs-p.out : $(BFS_P_O) $(GRAPH_P_O) $(BAG_O)
+	$(CILK) $(CILKFLAGS) $(LDFLAGS) $(LIBS) $(RTSDEF) $< -o $@
+
+clean :
+	rm -f $(OBJECTS) $(ASSEMBLY) $(TARGETS) BFS.* *.cv.out
+

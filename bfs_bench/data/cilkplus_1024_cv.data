@@ -1,0 +1,771 @@
+test_file: perf_list.cv.txt.
+num of runs: 1.
+START: cilkview ./bfs.out test_graphs/kkt_power.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 5.719 seconds
+1) Parallelism Profile
+   Work :					 168,121,317 instructions
+   Span :					 3,917,978 instructions
+   Burdened span :				 8,878,969 instructions
+   Parallelism :				 42.91
+   Burdened parallelism :			 18.93
+   Number of spawns/syncs:			 4,037
+   Average instructions / strand :		 13,880
+   Strands along span :				 186
+   Average instructions / strand on span :	 21,064
+   Total number of atomic instructions : 	 16,455
+   Frame count :				 12,285
+2) Speedup Estimate
+   2 processors:	 1.84 - 2.00
+   4 processors:	 3.15 - 4.00
+   8 processors:	 4.91 - 8.00
+   16 processors:	 6.82 - 16.00
+   32 processors:	 8.46 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 947,997,248 instructions
+   Span :					 780,705,661 instructions
+   Burdened span :				 785,941,652 instructions
+   Parallelism :				 1.21
+   Burdened parallelism :			 1.21
+   Number of spawns/syncs:			 6,084
+   Average instructions / strand :		 51,936
+   Strands along span :				 395
+   Average instructions / strand on span :	 1,976,470
+   Total number of atomic instructions : 	 18,505
+   Frame count :				 12,285
+2) Speedup Estimate
+   2 processors:	 0.83 - 1.21
+   4 processors:	 0.77 - 1.21
+   8 processors:	 0.74 - 1.21
+   16 processors:	 0.72 - 1.21
+   32 processors:	 0.72 - 1.21
+Done with cilkview ./bfs.out test_graphs/kkt_power.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 5.8004190 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs.out test_graphs/freescale1.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 15.578 seconds
+1) Parallelism Profile
+   Work :					 237,151,729 instructions
+   Span :					 6,628,552 instructions
+   Burdened span :				 18,641,788 instructions
+   Parallelism :				 35.78
+   Burdened parallelism :			 12.72
+   Number of spawns/syncs:			 7,372
+   Average instructions / strand :		 10,722
+   Strands along span :				 436
+   Average instructions / strand on span :	 15,203
+   Total number of atomic instructions : 	 28,766
+   Frame count :				 23,266
+2) Speedup Estimate
+   2 processors:	 1.76 - 2.00
+   4 processors:	 2.86 - 4.00
+   8 processors:	 4.13 - 8.00
+   16 processors:	 5.33 - 16.00
+   32 processors:	 6.22 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 1,265,412,399 instructions
+   Span :					 1,029,582,362 instructions
+   Burdened span :				 1,041,895,598 instructions
+   Parallelism :				 1.23
+   Burdened parallelism :			 1.21
+   Number of spawns/syncs:			 11,467
+   Average instructions / strand :		 36,783
+   Strands along span :				 897
+   Average instructions / strand on span :	 1,147,806
+   Total number of atomic instructions : 	 32,864
+   Frame count :				 23,266
+2) Speedup Estimate
+   2 processors:	 0.83 - 1.23
+   4 processors:	 0.77 - 1.23
+   8 processors:	 0.74 - 1.23
+   16 processors:	 0.73 - 1.23
+   32 processors:	 0.72 - 1.23
+Done with cilkview ./bfs.out test_graphs/freescale1.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 15.6690140 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs.out test_graphs/vanHeukelum-cage14.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 6.398 seconds
+1) Parallelism Profile
+   Work :					 301,150,501 instructions
+   Span :					 6,600,264 instructions
+   Burdened span :				 11,184,155 instructions
+   Parallelism :				 45.63
+   Burdened parallelism :			 26.93
+   Number of spawns/syncs:			 3,502
+   Average instructions / strand :		 28,661
+   Strands along span :				 183
+   Average instructions / strand on span :	 36,067
+   Total number of atomic instructions : 	 12,757
+   Frame count :				 11,225
+2) Speedup Estimate
+   2 processors:	 1.88 - 2.00
+   4 processors:	 3.36 - 4.00
+   8 processors:	 5.55 - 8.00
+   16 processors:	 8.22 - 16.00
+   32 processors:	 10.82 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 1,656,265,362 instructions
+   Span :					 1,359,323,692 instructions
+   Burdened span :				 1,364,182,583 instructions
+   Parallelism :				 1.22
+   Burdened parallelism :			 1.21
+   Number of spawns/syncs:			 5,549
+   Average instructions / strand :		 99,487
+   Strands along span :				 389
+   Average instructions / strand on span :	 3,494,405
+   Total number of atomic instructions : 	 14,807
+   Frame count :				 11,225
+2) Speedup Estimate
+   2 processors:	 0.83 - 1.22
+   4 processors:	 0.77 - 1.22
+   8 processors:	 0.74 - 1.22
+   16 processors:	 0.73 - 1.22
+   32 processors:	 0.72 - 1.22
+Done with cilkview ./bfs.out test_graphs/vanHeukelum-cage14.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 6.4773560 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs.out test_graphs/wikipedia-20070206.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 36.061 seconds
+1) Parallelism Profile
+   Work :					 469,082,484 instructions
+   Span :					 8,181,748 instructions
+   Burdened span :				 9,816,748 instructions
+   Parallelism :				 57.33
+   Burdened parallelism :			 47.78
+   Number of spawns/syncs:			 6,441
+   Average instructions / strand :		 24,274
+   Strands along span :				 73
+   Average instructions / strand on span :	 112,078
+   Total number of atomic instructions : 	 23,575
+   Frame count :				 21,561
+2) Speedup Estimate
+   2 processors:	 1.90 - 2.00
+   4 processors:	 3.61 - 4.00
+   8 processors:	 6.40 - 8.00
+   16 processors:	 10.43 - 16.00
+   32 processors:	 15.22 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 2,639,732,692 instructions
+   Span :					 2,173,352,471 instructions
+   Burdened span :				 2,175,287,471 instructions
+   Parallelism :				 1.21
+   Burdened parallelism :			 1.21
+   Number of spawns/syncs:			 10,536
+   Average instructions / strand :		 83,512
+   Strands along span :				 171
+   Average instructions / strand on span :	 12,709,663
+   Total number of atomic instructions : 	 27,673
+   Frame count :				 21,561
+2) Speedup Estimate
+   2 processors:	 0.83 - 1.21
+   4 processors:	 0.77 - 1.21
+   8 processors:	 0.74 - 1.21
+   16 processors:	 0.73 - 1.21
+   32 processors:	 0.72 - 1.21
+Done with cilkview ./bfs.out test_graphs/wikipedia-20070206.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 36.1523290 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs.out test_graphs/grid3d-200.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 83.125 seconds
+1) Parallelism Profile
+   Work :					 715,437,982 instructions
+   Span :					 50,237,885 instructions
+   Burdened span :				 114,192,965 instructions
+   Parallelism :				 14.24
+   Burdened parallelism :			 6.27
+   Number of spawns/syncs:			 15,727
+   Average instructions / strand :		 15,163
+   Strands along span :				 2,030
+   Average instructions / strand on span :	 24,747
+   Total number of atomic instructions : 	 68,821
+   Frame count :				 49,672
+2) Speedup Estimate
+   2 processors:	 1.57 - 2.00
+   4 processors:	 2.21 - 4.00
+   8 processors:	 2.76 - 8.00
+   16 processors:	 3.16 - 14.24
+   32 processors:	 3.40 - 14.24
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 3,601,277,925 instructions
+   Span :					 2,924,033,226 instructions
+   Burdened span :				 2,988,313,306 instructions
+   Parallelism :				 1.23
+   Burdened parallelism :			 1.21
+   Number of spawns/syncs:			 23,918
+   Average instructions / strand :		 50,188
+   Strands along span :				 4,087
+   Average instructions / strand on span :	 715,447
+   Total number of atomic instructions : 	 77,015
+   Frame count :				 49,672
+2) Speedup Estimate
+   2 processors:	 0.83 - 1.23
+   4 processors:	 0.76 - 1.23
+   8 processors:	 0.74 - 1.23
+   16 processors:	 0.72 - 1.23
+   32 processors:	 0.72 - 1.23
+Done with cilkview ./bfs.out test_graphs/grid3d-200.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 83.2390830 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 6.992 seconds
+1) Parallelism Profile
+   Work :					 840,397,455 instructions
+   Span :					 30,520,709 instructions
+   Burdened span :				 31,951,164 instructions
+   Parallelism :				 27.54
+   Burdened parallelism :			 26.30
+   Number of spawns/syncs:			 10,553
+   Average instructions / strand :		 26,544
+   Strands along span :				 51
+   Average instructions / strand on span :	 598,445
+   Total number of atomic instructions : 	 25,086
+   Frame count :				 37,518
+2) Speedup Estimate
+   2 processors:	 1.88 - 2.00
+   4 processors:	 3.35 - 4.00
+   8 processors:	 5.51 - 8.00
+   16 processors:	 8.12 - 16.00
+   32 processors:	 10.65 - 27.54
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 4,608,072,777 instructions
+   Span :					 3,785,788,609 instructions
+   Burdened span :				 3,787,544,064 instructions
+   Parallelism :				 1.22
+   Burdened parallelism :			 1.22
+   Number of spawns/syncs:			 18,744
+   Average instructions / strand :		 81,946
+   Strands along span :				 129
+   Average instructions / strand on span :	 29,347,198
+   Total number of atomic instructions : 	 33,280
+   Frame count :				 37,518
+2) Speedup Estimate
+   2 processors:	 0.83 - 1.22
+   4 processors:	 0.77 - 1.22
+   8 processors:	 0.74 - 1.22
+   16 processors:	 0.73 - 1.22
+   32 processors:	 0.72 - 1.22
+Done with cilkview ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 7.1080970 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs.out test_graphs/vanHeukelum-cage15.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 10.743 seconds
+1) Parallelism Profile
+   Work :					 1,094,347,389 instructions
+   Span :					 8,854,665 instructions
+   Burdened span :				 15,921,570 instructions
+   Parallelism :				 123.59
+   Burdened parallelism :			 68.73
+   Number of spawns/syncs:			 13,205
+   Average instructions / strand :		 27,623
+   Strands along span :				 283
+   Average instructions / strand on span :	 31,288
+   Total number of atomic instructions : 	 44,310
+   Frame count :				 42,963
+2) Speedup Estimate
+   2 processors:	 1.90 - 2.00
+   4 processors:	 3.72 - 4.00
+   8 processors:	 6.82 - 8.00
+   16 processors:	 11.67 - 16.00
+   32 processors:	 18.11 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 5,661,502,326 instructions
+   Span :					 4,567,521,025 instructions
+   Burdened span :				 4,574,912,930 instructions
+   Parallelism :				 1.24
+   Burdened parallelism :			 1.24
+   Number of spawns/syncs:			 21,396
+   Average instructions / strand :		 88,200
+   Strands along span :				 593
+   Average instructions / strand on span :	 7,702,396
+   Total number of atomic instructions : 	 52,504
+   Frame count :				 42,963
+2) Speedup Estimate
+   2 processors:	 0.84 - 1.24
+   4 processors:	 0.78 - 1.24
+   8 processors:	 0.75 - 1.24
+   16 processors:	 0.74 - 1.24
+   32 processors:	 0.73 - 1.24
+Done with cilkview ./bfs.out test_graphs/vanHeukelum-cage15.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 10.8413790 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs.out test_graphs/nlpkkt160.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 27.736 seconds
+1) Parallelism Profile
+   Work :					 2,418,562,707 instructions
+   Span :					 47,027,540 instructions
+   Burdened span :				 74,323,361 instructions
+   Parallelism :				 51.43
+   Burdened parallelism :			 32.54
+   Number of spawns/syncs:			 16,277
+   Average instructions / strand :		 49,528
+   Strands along span :				 742
+   Average instructions / strand on span :	 63,379
+   Total number of atomic instructions : 	 66,816
+   Frame count :				 49,552
+2) Speedup Estimate
+   2 processors:	 1.90 - 2.00
+   4 processors:	 3.46 - 4.00
+   8 processors:	 5.86 - 8.00
+   16 processors:	 8.97 - 16.00
+   32 processors:	 12.22 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 12,447,599,232 instructions
+   Span :					 10,063,587,523 instructions
+   Burdened span :				 10,091,208,344 instructions
+   Parallelism :				 1.24
+   Burdened parallelism :			 1.23
+   Number of spawns/syncs:			 24,468
+   Average instructions / strand :		 169,574
+   Strands along span :				 1,511
+   Average instructions / strand on span :	 6,660,216
+   Total number of atomic instructions : 	 75,010
+   Frame count :				 49,552
+2) Speedup Estimate
+   2 processors:	 0.84 - 1.24
+   4 processors:	 0.78 - 1.24
+   8 processors:	 0.75 - 1.24
+   16 processors:	 0.74 - 1.24
+   32 processors:	 0.73 - 1.24
+Done with cilkview ./bfs.out test_graphs/nlpkkt160.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 27.8639420 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/kkt_power.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 6.491 seconds
+1) Parallelism Profile
+   Work :					 231,252,345 instructions
+   Span :					 6,047,145 instructions
+   Burdened span :				 10,889,513 instructions
+   Parallelism :				 38.24
+   Burdened parallelism :			 21.24
+   Number of spawns/syncs:			 4,037
+   Average instructions / strand :		 19,092
+   Strands along span :				 195
+   Average instructions / strand on span :	 31,011
+   Total number of atomic instructions : 	 16,453
+   Frame count :				 12,284
+2) Speedup Estimate
+   2 processors:	 1.85 - 2.00
+   4 processors:	 3.23 - 4.00
+   8 processors:	 5.13 - 8.00
+   16 processors:	 7.27 - 16.00
+   32 processors:	 9.19 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 1,083,250,939 instructions
+   Span :					 854,428,559 instructions
+   Burdened span :				 859,545,927 instructions
+   Parallelism :				 1.27
+   Burdened parallelism :			 1.26
+   Number of spawns/syncs:			 6,084
+   Average instructions / strand :		 59,346
+   Strands along span :				 413
+   Average instructions / strand on span :	 2,068,834
+   Total number of atomic instructions : 	 18,503
+   Frame count :				 12,284
+2) Speedup Estimate
+   2 processors:	 0.85 - 1.27
+   4 processors:	 0.79 - 1.27
+   8 processors:	 0.77 - 1.27
+   16 processors:	 0.75 - 1.27
+   32 processors:	 0.75 - 1.27
+Done with cilkview ./bfs-p.out test_graphs/kkt_power.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 6.5790070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/freescale1.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 17.714 seconds
+1) Parallelism Profile
+   Work :					 313,423,801 instructions
+   Span :					 9,421,119 instructions
+   Burdened span :				 21,235,748 instructions
+   Parallelism :				 33.27
+   Burdened parallelism :			 14.76
+   Number of spawns/syncs:			 7,372
+   Average instructions / strand :		 14,171
+   Strands along span :				 438
+   Average instructions / strand on span :	 21,509
+   Total number of atomic instructions : 	 28,763
+   Frame count :				 23,265
+2) Speedup Estimate
+   2 processors:	 1.79 - 2.00
+   4 processors:	 2.97 - 4.00
+   8 processors:	 4.43 - 8.00
+   16 processors:	 5.87 - 16.00
+   32 processors:	 7.00 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 1,425,521,069 instructions
+   Span :					 1,115,327,928 instructions
+   Burdened span :				 1,127,442,557 instructions
+   Parallelism :				 1.28
+   Burdened parallelism :			 1.26
+   Number of spawns/syncs:			 11,467
+   Average instructions / strand :		 41,437
+   Strands along span :				 901
+   Average instructions / strand on span :	 1,237,877
+   Total number of atomic instructions : 	 32,861
+   Frame count :				 23,265
+2) Speedup Estimate
+   2 processors:	 0.85 - 1.28
+   4 processors:	 0.79 - 1.28
+   8 processors:	 0.77 - 1.28
+   16 processors:	 0.76 - 1.28
+   32 processors:	 0.75 - 1.28
+Done with cilkview ./bfs-p.out test_graphs/freescale1.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 17.8185320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/vanHeukelum-cage14.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 7.588 seconds
+1) Parallelism Profile
+   Work :					 423,748,564 instructions
+   Span :					 9,750,334 instructions
+   Burdened span :				 14,198,284 instructions
+   Parallelism :				 43.46
+   Burdened parallelism :			 29.85
+   Number of spawns/syncs:			 3,502
+   Average instructions / strand :		 40,330
+   Strands along span :				 184
+   Average instructions / strand on span :	 52,990
+   Total number of atomic instructions : 	 12,753
+   Frame count :				 11,224
+2) Speedup Estimate
+   2 processors:	 1.89 - 2.00
+   4 processors:	 3.42 - 4.00
+   8 processors:	 5.72 - 8.00
+   16 processors:	 8.63 - 16.00
+   32 processors:	 11.57 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 1,901,494,262 instructions
+   Span :					 1,484,715,031 instructions
+   Burdened span :				 1,489,437,981 instructions
+   Parallelism :				 1.28
+   Burdened parallelism :			 1.28
+   Number of spawns/syncs:			 5,549
+   Average instructions / strand :		 114,217
+   Strands along span :				 391
+   Average instructions / strand on span :	 3,797,225
+   Total number of atomic instructions : 	 14,803
+   Frame count :				 11,224
+2) Speedup Estimate
+   2 processors:	 0.86 - 1.28
+   4 processors:	 0.80 - 1.28
+   8 processors:	 0.78 - 1.28
+   16 processors:	 0.76 - 1.28
+   32 processors:	 0.76 - 1.28
+Done with cilkview ./bfs-p.out test_graphs/vanHeukelum-cage14.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 7.6746690 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/wikipedia-20070206.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 43.098 seconds
+1) Parallelism Profile
+   Work :					 611,615,166 instructions
+   Span :					 12,776,070 instructions
+   Burdened span :				 14,411,070 instructions
+   Parallelism :				 47.87
+   Burdened parallelism :			 42.44
+   Number of spawns/syncs:			 6,441
+   Average instructions / strand :		 31,650
+   Strands along span :				 73
+   Average instructions / strand on span :	 175,014
+   Total number of atomic instructions : 	 23,572
+   Frame count :				 21,560
+2) Speedup Estimate
+   2 processors:	 1.90 - 2.00
+   4 processors:	 3.57 - 4.00
+   8 processors:	 6.25 - 8.00
+   16 processors:	 9.99 - 16.00
+   32 processors:	 14.27 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 2,913,845,355 instructions
+   Span :					 2,308,608,648 instructions
+   Burdened span :				 2,310,543,648 instructions
+   Parallelism :				 1.26
+   Burdened parallelism :			 1.26
+   Number of spawns/syncs:			 10,536
+   Average instructions / strand :		 92,184
+   Strands along span :				 171
+   Average instructions / strand on span :	 13,500,635
+   Total number of atomic instructions : 	 27,670
+   Frame count :				 21,560
+2) Speedup Estimate
+   2 processors:	 0.85 - 1.26
+   4 processors:	 0.79 - 1.26
+   8 processors:	 0.77 - 1.26
+   16 processors:	 0.75 - 1.26
+   32 processors:	 0.75 - 1.26
+Done with cilkview ./bfs-p.out test_graphs/wikipedia-20070206.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 43.2045250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/grid3d-200.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 91.256 seconds
+1) Parallelism Profile
+   Work :					 1,035,169,861 instructions
+   Span :					 73,477,201 instructions
+   Burdened span :				 137,568,533 instructions
+   Parallelism :				 14.09
+   Burdened parallelism :			 7.52
+   Number of spawns/syncs:			 15,727
+   Average instructions / strand :		 21,939
+   Strands along span :				 2,289
+   Average instructions / strand on span :	 32,100
+   Total number of atomic instructions : 	 68,818
+   Frame count :				 49,671
+2) Speedup Estimate
+   2 processors:	 1.63 - 2.00
+   4 processors:	 2.38 - 4.00
+   8 processors:	 3.10 - 8.00
+   16 processors:	 3.65 - 14.09
+   32 processors:	 4.00 - 14.09
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 4,313,076,415 instructions
+   Span :					 3,337,286,154 instructions
+   Burdened span :				 3,401,702,486 instructions
+   Parallelism :				 1.29
+   Burdened parallelism :			 1.27
+   Number of spawns/syncs:			 23,918
+   Average instructions / strand :		 60,108
+   Strands along span :				 4,605
+   Average instructions / strand on span :	 724,709
+   Total number of atomic instructions : 	 77,012
+   Frame count :				 49,671
+2) Speedup Estimate
+   2 processors:	 0.85 - 1.29
+   4 processors:	 0.80 - 1.29
+   8 processors:	 0.77 - 1.29
+   16 processors:	 0.76 - 1.29
+   32 processors:	 0.75 - 1.29
+Done with cilkview ./bfs-p.out test_graphs/grid3d-200.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 91.3987970 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/rmat23-denser-unbalanced.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 10.123 seconds
+1) Parallelism Profile
+   Work :					 1,188,165,588 instructions
+   Span :					 48,957,641 instructions
+   Burdened span :				 50,361,615 instructions
+   Parallelism :				 24.27
+   Burdened parallelism :			 23.59
+   Number of spawns/syncs:			 10,553
+   Average instructions / strand :		 37,528
+   Strands along span :				 51
+   Average instructions / strand on span :	 959,953
+   Total number of atomic instructions : 	 25,089
+   Frame count :				 37,517
+2) Speedup Estimate
+   2 processors:	 1.87 - 2.00
+   4 processors:	 3.29 - 4.00
+   8 processors:	 5.32 - 8.00
+   16 processors:	 7.69 - 16.00
+   32 processors:	 9.90 - 24.27
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 5,315,667,708 instructions
+   Span :					 4,161,914,488 instructions
+   Burdened span :				 4,163,643,462 instructions
+   Parallelism :				 1.28
+   Burdened parallelism :			 1.28
+   Number of spawns/syncs:			 18,744
+   Average instructions / strand :		 94,529
+   Strands along span :				 129
+   Average instructions / strand on span :	 32,262,903
+   Total number of atomic instructions : 	 33,283
+   Frame count :				 37,517
+2) Speedup Estimate
+   2 processors:	 0.86 - 1.28
+   4 processors:	 0.80 - 1.28
+   8 processors:	 0.78 - 1.28
+   16 processors:	 0.76 - 1.28
+   32 processors:	 0.76 - 1.28
+Done with cilkview ./bfs-p.out test_graphs/rmat23-denser-unbalanced.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 10.2673880 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/vanHeukelum-cage15.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 13.785 seconds
+1) Parallelism Profile
+   Work :					 1,546,618,459 instructions
+   Span :					 13,530,760 instructions
+   Burdened span :				 20,515,992 instructions
+   Parallelism :				 114.30
+   Burdened parallelism :			 75.39
+   Number of spawns/syncs:			 13,205
+   Average instructions / strand :		 39,040
+   Strands along span :				 274
+   Average instructions / strand on span :	 49,382
+   Total number of atomic instructions : 	 44,305
+   Frame count :				 42,962
+2) Speedup Estimate
+   2 processors:	 1.90 - 2.00
+   4 processors:	 3.75 - 4.00
+   8 processors:	 6.91 - 8.00
+   16 processors:	 11.96 - 16.00
+   32 processors:	 18.83 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 6,564,966,963 instructions
+   Span :					 5,022,048,888 instructions
+   Burdened span :				 5,029,359,120 instructions
+   Parallelism :				 1.31
+   Burdened parallelism :			 1.31
+   Number of spawns/syncs:			 21,396
+   Average instructions / strand :		 102,275
+   Strands along span :				 575
+   Average instructions / strand on span :	 8,733,998
+   Total number of atomic instructions : 	 52,499
+   Frame count :				 42,962
+2) Speedup Estimate
+   2 processors:	 0.87 - 1.31
+   4 processors:	 0.82 - 1.31
+   8 processors:	 0.79 - 1.31
+   16 processors:	 0.78 - 1.31
+   32 processors:	 0.77 - 1.31
+Done with cilkview ./bfs-p.out test_graphs/vanHeukelum-cage15.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 13.9068420 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: cilkview ./bfs-p.out test_graphs/nlpkkt160.bin
+Cilkview Scalability Analyzer V2.0.0, Build 1113
+
+BFS Statistics - Elapsed time: 33.582 seconds
+1) Parallelism Profile
+   Work :					 3,797,148,950 instructions
+   Span :					 74,933,549 instructions
+   Burdened span :				 102,222,583 instructions
+   Parallelism :				 50.67
+   Burdened parallelism :			 37.15
+   Number of spawns/syncs:			 16,277
+   Average instructions / strand :		 77,759
+   Strands along span :				 920
+   Average instructions / strand on span :	 81,449
+   Total number of atomic instructions : 	 66,817
+   Frame count :				 49,551
+2) Speedup Estimate
+   2 processors:	 1.90 - 2.00
+   4 processors:	 3.52 - 4.00
+   8 processors:	 6.06 - 8.00
+   16 processors:	 9.49 - 16.00
+   32 processors:	 13.23 - 32.00
+
+Whole Program Statistics
+1) Parallelism Profile
+   Work :					 15,601,888,342 instructions
+   Span :					 11,865,057,013 instructions
+   Burdened span :				 11,892,671,047 instructions
+   Parallelism :				 1.31
+   Burdened parallelism :			 1.31
+   Number of spawns/syncs:			 24,468
+   Average instructions / strand :		 212,545
+   Strands along span :				 1,867
+   Average instructions / strand on span :	 6,355,145
+   Total number of atomic instructions : 	 75,011
+   Frame count :				 49,551
+2) Speedup Estimate
+   2 processors:	 0.87 - 1.31
+   4 processors:	 0.82 - 1.31
+   8 processors:	 0.79 - 1.31
+   16 processors:	 0.78 - 1.31
+   32 processors:	 0.78 - 1.31
+Done with cilkview ./bfs-p.out test_graphs/nlpkkt160.bin
+cilkview: generating scalability data
+BFS algorithm 1, 1 iter on  1 workers: 33.7599360 seconds, 0 errors.
+
+-------------------------------------------------
+
+

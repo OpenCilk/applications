@@ -1,0 +1,18 @@
+cilkview ./bfs.out test_graphs/kkt_power.bin
+cilkview ./bfs.out test_graphs/freescale1.bin
+cilkview ./bfs.out test_graphs/vanHeukelum-cage14.bin
+cilkview ./bfs.out test_graphs/wikipedia-20070206.bin
+cilkview ./bfs.out test_graphs/grid3d-200.bin
+cilkview ./bfs.out test_graphs/rmat23-denser-unbalanced.bin
+cilkview ./bfs.out test_graphs/vanHeukelum-cage15.bin
+cilkview ./bfs.out test_graphs/nlpkkt160.bin
+#
+cilkview ./bfs-p.out test_graphs/kkt_power.bin
+cilkview ./bfs-p.out test_graphs/freescale1.bin
+cilkview ./bfs-p.out test_graphs/vanHeukelum-cage14.bin
+cilkview ./bfs-p.out test_graphs/wikipedia-20070206.bin
+cilkview ./bfs-p.out test_graphs/grid3d-200.bin
+cilkview ./bfs-p.out test_graphs/rmat23-denser-unbalanced.bin
+cilkview ./bfs-p.out test_graphs/vanHeukelum-cage15.bin
+cilkview ./bfs-p.out test_graphs/nlpkkt160.bin
+

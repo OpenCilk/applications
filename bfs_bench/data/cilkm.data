@@ -1,0 +1,1314 @@
+test_file: perf_list.txt.
+num of runs: 1.
+START: ./bfs.out --nproc 1 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 0.8718500 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 0.5221740 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.2836200 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.1661580 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.1338690 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.1516640 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 1 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 0.7276150 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 0.4696740 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.2531830 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.1630640 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.1431080 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.1412270 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 1 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 0.7151300 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 0.4434470 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.2405240 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.1454260 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.1288460 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.1315590 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 1 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 2.1545440 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 1.2288340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.6207530 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.3535210 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.2825480 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.2483900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 1 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 2.9309870 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 1.8690220 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 1.1322220 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.7784350 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.7270930 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.7318390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 1 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 2.6134920 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 1.6174700 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.7725070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.4760670 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.3826390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.3473240 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 1 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 2.9339250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 1.7256560 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.9353190 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.5353460 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.4244030 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.3813530 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 1 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 2.9315120 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 2 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 1.5356920 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 4 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.9184950 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 8 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.5652540 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 12 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.4875080 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out --nproc 16 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.5356400 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 7.5920890 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 3.7161180 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 1.9585590 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 1.0508290 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.7651460 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.6254330 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 10.2584930 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 4.6545190 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 2.4333880 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 1.3538950 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 1.0137380 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.8680930 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 17.5475600 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 7.3011850 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 3.6492420 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 1.9848540 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 1.4302630 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 1.1589610 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 24.8704040 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 12.0429070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 6.0697960 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 3.1630750 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 2.2361760 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 1.8224460 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 33.6399280 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 16.4916850 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 9.2647320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 5.8066120 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 5.0536480 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 4.2047960 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 44.2027890 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 21.6416250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 11.1040770 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 5.9191550 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 4.2123750 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 3.5080700 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 62.2712500 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 26.5492740 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 13.0142980 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 6.7224280 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 4.6492570 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 3.6223430 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 1 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 140.6805360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 2 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 60.8874530 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 4 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 28.8961680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 8 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 15.4346890 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 12 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 11.1058640 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c.out --nproc 16 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 8.9976520 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 1.1178760 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 0.9216890 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.7315000 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.6343490 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.6505750 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.8022850 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 0.9626830 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 0.9871630 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.9606150 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.9688830 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 1.0334640 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 1.1877350 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 1.0524010 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 0.7840780 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 0.6214500 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 0.5147050 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 0.5138800 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 0.5261380 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 3.0176130 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 1.9092130 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 1.3864500 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 1.0155310 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 1.0878760 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 1.5548580 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 3.7772730 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 3.6078320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 3.3848640 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 2.8409820 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 3.1887100 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 2.9468620 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 6.0392080 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 3.7400340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 2.4032170 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 2.2625800 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 2.8237500 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 4.0782600 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 4.2773510 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 3.1603760 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 2.3925250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 2.0542340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 2.0752650 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 2.0407550 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 4.3220130 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 3.1582380 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 2.9339420 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 3.3827930 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 3.5828850 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 4.1014100 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 15.1815220 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 7.1230820 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 3.8956170 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 2.2181900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 1.7393030 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 1.5278830 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 21.5076390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 9.5461990 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 5.0894770 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 3.2013590 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 2.6810530 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 2.5158570 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 36.8289260 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 15.2783190 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 7.2693800 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 4.0402340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 2.9758750 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 2.5195210 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 50.4871340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 22.9478060 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 11.6786540 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 6.2522840 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 4.6783360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 4.0125080 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 71.4694210 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 33.5801150 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 19.0805420 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 12.5825680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 11.6047600 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 9.6299400 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 89.9702260 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 42.9368980 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 22.2545800 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 12.6573840 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 9.9480390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 8.8657160 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 131.6199070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 54.2725250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 25.9204670 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 13.8068020 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 9.8905380 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 8.0697040 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 1 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  1 workers: 279.8154450 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 2 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  2 workers: 129.8860810 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 4 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  4 workers: 60.7664390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 8 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on  8 workers: 32.4505670 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 12 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 12 workers: 24.2002170 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-c-p.out --nproc 16 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 1, 1 iter on 16 workers: 20.5510070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/kkt_power.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.9592880 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/freescale1.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.7175530 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/vanHeukelum-cage14.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.9127450 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/wikipedia-20070206.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 2.5433870 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/grid3d-200.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 4.0585460 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/rmat23-denser-unbalanced.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 4.2356260 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/vanHeukelum-cage15.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 3.3728230 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out 0 test_graphs/nlpkkt160.bin 
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 4.0496750 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/kkt_power.bin   
+Done with ./bfs.out 0 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.9133990 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/freescale1.bin   
+Done with ./bfs.out 0 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.6114750 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/vanHeukelum-cage14.bin   
+Done with ./bfs.out 0 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.6460520 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/wikipedia-20070206.bin
+Done with ./bfs.out 0 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 1.9707300 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/grid3d-200.bin  
+Done with ./bfs.out 0 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 3.1622320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/rmat23-denser-unbalanced.bin
+Done with ./bfs.out 0 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 2.5388770 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/vanHeukelum-cage15.bin
+Done with ./bfs.out 0 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 2.5032500 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/nlpkkt160.bin
+Done with ./bfs.out 0 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 3.5767410 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/kkt_power.bin   
+Done with ./bfs-pp.out 0 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.9695340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/freescale1.bin   
+Done with ./bfs-pp.out 0 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.7197430 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/vanHeukelum-cage14.bin   
+Done with ./bfs-pp.out 0 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 0.8396230 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/wikipedia-20070206.bin
+Done with ./bfs-pp.out 0 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 2.5507440 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/grid3d-200.bin  
+Done with ./bfs-pp.out 0 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 3.5451070 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/rmat23-denser-unbalanced.bin
+Done with ./bfs-pp.out 0 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 4.3597150 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/vanHeukelum-cage15.bin
+Done with ./bfs-pp.out 0 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 3.3991580 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/nlpkkt160.bin
+Done with ./bfs-pp.out 0 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+BFS algorithm 0, 1 iter on  1 workers: 4.1167490 seconds, 0 errors.
+
+-------------------------------------------------
+

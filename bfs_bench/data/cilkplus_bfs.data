@@ -1,0 +1,274 @@
+test_file: tmp.txt.
+num of runs: 1.
+START: ./bfs.out 0 test_graphs/kkt_power.bin   
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.922157 s
+Running time 2: 0.929104 s
+Running time 3: 0.922918 s
+Running time 4: 0.922831 s
+Running time 5: 0.922828 s
+Running time 6: 0.922769 s
+Running time 7: 0.922726 s
+Running time 8: 0.922778 s
+Running time 9: 0.922702 s
+Running time 10: 0.922644 s
+Running time average: 0.923346 s
+Std. dev: 0.000004 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/freescale1.bin   
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.635012 s
+Running time 2: 0.631921 s
+Running time 3: 0.632079 s
+Running time 4: 0.631864 s
+Running time 5: 0.631800 s
+Running time 6: 0.631896 s
+Running time 7: 0.631906 s
+Running time 8: 0.631804 s
+Running time 9: 0.631866 s
+Running time 10: 0.632063 s
+Running time average: 0.632221 s
+Std. dev: 0.000001 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.656427 s
+Running time 2: 0.658418 s
+Running time 3: 0.653648 s
+Running time 4: 0.653524 s
+Running time 5: 0.653496 s
+Running time 6: 0.653632 s
+Running time 7: 0.653553 s
+Running time 8: 0.653468 s
+Running time 9: 0.653550 s
+Running time 10: 0.653481 s
+Running time average: 0.654320 s
+Std. dev: 0.000003 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/wikipedia-20070206.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 1.985738 s
+Running time 2: 1.981608 s
+Running time 3: 1.981445 s
+Running time 4: 1.981470 s
+Running time 5: 1.981228 s
+Running time 6: 1.980742 s
+Running time 7: 1.980519 s
+Running time 8: 1.980902 s
+Running time 9: 1.980842 s
+Running time 10: 1.980650 s
+Running time average: 1.981514 s
+Std. dev: 0.000002 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/grid3d-200.bin  
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.098537 s
+Running time 2: 3.214692 s
+Running time 3: 3.213575 s
+Running time 4: 3.213282 s
+Running time 5: 3.214038 s
+Running time 6: 3.214103 s
+Running time 7: 3.214521 s
+Running time 8: 3.214606 s
+Running time 9: 3.213942 s
+Running time 10: 3.213466 s
+Running time average: 3.202476 s
+Std. dev: 0.001334 s (0.04%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.397371 s
+Running time 2: 2.380459 s
+Running time 3: 2.380503 s
+Running time 4: 2.382125 s
+Running time 5: 2.381030 s
+Running time 6: 2.380585 s
+Running time 7: 2.380632 s
+Running time 8: 2.380703 s
+Running time 9: 2.381020 s
+Running time 10: 2.380842 s
+Running time average: 2.382527 s
+Std. dev: 0.000027 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.534535 s
+Running time 2: 2.533445 s
+Running time 3: 2.533464 s
+Running time 4: 2.533424 s
+Running time 5: 2.533417 s
+Running time 6: 2.533434 s
+Running time 7: 2.533424 s
+Running time 8: 2.533493 s
+Running time 9: 2.533349 s
+Running time 10: 2.533300 s
+Running time average: 2.533529 s
+Std. dev: 0.000000 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/nlpkkt160.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.696022 s
+Running time 2: 3.656670 s
+Running time 3: 3.656627 s
+Running time 4: 3.656650 s
+Running time 5: 3.656488 s
+Running time 6: 3.656312 s
+Running time 7: 3.656599 s
+Running time 8: 3.656518 s
+Running time 9: 3.656411 s
+Running time 10: 3.656384 s
+Running time average: 3.660468 s
+Std. dev: 0.000156 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/kkt_power.bin   
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.959373 s
+Running time 2: 0.967279 s
+Running time 3: 0.967401 s
+Running time 4: 0.967123 s
+Running time 5: 0.967109 s
+Running time 6: 0.967056 s
+Running time 7: 0.967066 s
+Running time 8: 0.967111 s
+Running time 9: 0.967101 s
+Running time 10: 0.967055 s
+Running time average: 0.966367 s
+Std. dev: 0.000006 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/freescale1.bin   
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.737711 s
+Running time 2: 0.728518 s
+Running time 3: 0.727725 s
+Running time 4: 0.729371 s
+Running time 5: 0.728294 s
+Running time 6: 0.728677 s
+Running time 7: 0.729301 s
+Running time 8: 0.728216 s
+Running time 9: 0.728687 s
+Running time 10: 0.729395 s
+Running time average: 0.729589 s
+Std. dev: 0.000008 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/vanHeukelum-cage14.bin   
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.850768 s
+Running time 2: 0.851705 s
+Running time 3: 0.851539 s
+Running time 4: 0.851748 s
+Running time 5: 0.851630 s
+Running time 6: 0.851763 s
+Running time 7: 0.851632 s
+Running time 8: 0.851685 s
+Running time 9: 0.851705 s
+Running time 10: 0.851624 s
+Running time average: 0.851580 s
+Std. dev: 0.000000 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/wikipedia-20070206.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.552618 s
+Running time 2: 2.543631 s
+Running time 3: 2.543862 s
+Running time 4: 2.544136 s
+Running time 5: 2.543495 s
+Running time 6: 2.543831 s
+Running time 7: 2.543628 s
+Running time 8: 2.543569 s
+Running time 9: 2.543738 s
+Running time 10: 2.543469 s
+Running time average: 2.544598 s
+Std. dev: 0.000008 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/grid3d-200.bin  
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.522993 s
+Running time 2: 3.493392 s
+Running time 3: 3.492521 s
+Running time 4: 3.491818 s
+Running time 5: 3.492770 s
+Running time 6: 3.493392 s
+Running time 7: 3.493499 s
+Running time 8: 3.492836 s
+Running time 9: 3.493836 s
+Running time 10: 3.493736 s
+Running time average: 3.496079 s
+Std. dev: 0.000090 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/rmat23-denser-unbalanced.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 4.306844 s
+Running time 2: 4.267061 s
+Running time 3: 4.278930 s
+Running time 4: 4.278083 s
+Running time 5: 4.277886 s
+Running time 6: 4.277842 s
+Running time 7: 4.278142 s
+Running time 8: 4.278056 s
+Running time 9: 4.278095 s
+Running time 10: 4.277948 s
+Running time average: 4.279889 s
+Std. dev: 0.000102 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/vanHeukelum-cage15.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.375076 s
+Running time 2: 3.372338 s
+Running time 3: 3.372219 s
+Running time 4: 3.372363 s
+Running time 5: 3.371774 s
+Running time 6: 3.371946 s
+Running time 7: 3.371897 s
+Running time 8: 3.371817 s
+Running time 9: 3.371817 s
+Running time 10: 3.371527 s
+Running time average: 3.372277 s
+Std. dev: 0.000001 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/nlpkkt160.bin
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 4.052254 s
+Running time 2: 4.026371 s
+Running time 3: 4.026738 s
+Running time 4: 4.026635 s
+Running time 5: 4.021659 s
+Running time 6: 4.026911 s
+Running time 7: 4.026343 s
+Running time 8: 4.025914 s
+Running time 9: 4.026621 s
+Running time 10: 4.025791 s
+Running time average: 4.028524 s
+Std. dev: 0.000072 s (0.00%)
+
+-------------------------------------------------
+

@@ -1,0 +1,806 @@
+test_file: perf_list.txt.
+num of runs: 1.
+START: ./bfs-p.out --nproc 1 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+BFS algorithm 1, 1 iter on  1 workers: 3.8128060 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.31056 time doing array reduce.
+Worker 1 spend 0.4591 time doing array reduce.
+Total time spend doing array reduce: 0.76966
+BFS algorithm 1, 1 iter on  2 workers: 4.0115580 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.263402 time doing array reduce.
+Worker 1 spend 0.27805 time doing array reduce.
+Worker 2 spend 0.427457 time doing array reduce.
+Worker 3 spend 0.323788 time doing array reduce.
+Total time spend doing array reduce: 1.2927
+BFS algorithm 1, 1 iter on  4 workers: 3.4456300 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.217713 time doing array reduce.
+Worker 1 spend 0.240976 time doing array reduce.
+Worker 2 spend 0.159553 time doing array reduce.
+Worker 3 spend 0.227148 time doing array reduce.
+Worker 4 spend 0.202141 time doing array reduce.
+Worker 5 spend 0.205969 time doing array reduce.
+Worker 6 spend 0.188772 time doing array reduce.
+Worker 7 spend 0.180213 time doing array reduce.
+Total time spend doing array reduce: 1.62248
+BFS algorithm 1, 1 iter on  8 workers: 3.0622200 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.147875 time doing array reduce.
+Worker 1 spend 0.168735 time doing array reduce.
+Worker 2 spend 0.15047 time doing array reduce.
+Worker 3 spend 0.145464 time doing array reduce.
+Worker 4 spend 0.153766 time doing array reduce.
+Worker 5 spend 0.133362 time doing array reduce.
+Worker 6 spend 0.150194 time doing array reduce.
+Worker 7 spend 0.15266 time doing array reduce.
+Worker 8 spend 0.158343 time doing array reduce.
+Worker 9 spend 0.130949 time doing array reduce.
+Worker 10 spend 0.132007 time doing array reduce.
+Worker 11 spend 0.156481 time doing array reduce.
+Total time spend doing array reduce: 1.78031
+BFS algorithm 1, 1 iter on 12 workers: 3.3819230 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Worker 12 spend 0 time doing array reduce.
+Worker 13 spend 0 time doing array reduce.
+Worker 14 spend 0 time doing array reduce.
+Worker 15 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.114602 time doing array reduce.
+Worker 1 spend 0.085955 time doing array reduce.
+Worker 2 spend 0.166556 time doing array reduce.
+Worker 3 spend 0.138016 time doing array reduce.
+Worker 4 spend 0.124088 time doing array reduce.
+Worker 5 spend 0.116542 time doing array reduce.
+Worker 6 spend 0.130283 time doing array reduce.
+Worker 7 spend 0.076329 time doing array reduce.
+Worker 8 spend 0.148801 time doing array reduce.
+Worker 9 spend 0.142548 time doing array reduce.
+Worker 10 spend 0.107273 time doing array reduce.
+Worker 11 spend 0.081553 time doing array reduce.
+Worker 12 spend 0.091515 time doing array reduce.
+Worker 13 spend 0.109393 time doing array reduce.
+Worker 14 spend 0.146214 time doing array reduce.
+Worker 15 spend 0.183906 time doing array reduce.
+Total time spend doing array reduce: 1.96357
+BFS algorithm 1, 1 iter on 16 workers: 3.0776530 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/rajat31.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+BFS algorithm 1, 1 iter on  1 workers: 0.3476250 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/rajat31.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.06019 time doing array reduce.
+Worker 1 spend 0.069378 time doing array reduce.
+Total time spend doing array reduce: 0.129568
+BFS algorithm 1, 1 iter on  2 workers: 0.6791510 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/rajat31.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.03852 time doing array reduce.
+Worker 1 spend 0.036343 time doing array reduce.
+Worker 2 spend 0.037516 time doing array reduce.
+Worker 3 spend 0.036511 time doing array reduce.
+Total time spend doing array reduce: 0.14889
+BFS algorithm 1, 1 iter on  4 workers: 0.7933390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/rajat31.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.018356 time doing array reduce.
+Worker 1 spend 0.019053 time doing array reduce.
+Worker 2 spend 0.016591 time doing array reduce.
+Worker 3 spend 0.016364 time doing array reduce.
+Worker 4 spend 0.016317 time doing array reduce.
+Worker 5 spend 0.018308 time doing array reduce.
+Worker 6 spend 0.016097 time doing array reduce.
+Worker 7 spend 0.014396 time doing array reduce.
+Total time spend doing array reduce: 0.135482
+BFS algorithm 1, 1 iter on  8 workers: 0.9104470 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/rajat31.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.012215 time doing array reduce.
+Worker 1 spend 0.011342 time doing array reduce.
+Worker 2 spend 0.012806 time doing array reduce.
+Worker 3 spend 0.013531 time doing array reduce.
+Worker 4 spend 0.010507 time doing array reduce.
+Worker 5 spend 0.012253 time doing array reduce.
+Worker 6 spend 0.011721 time doing array reduce.
+Worker 7 spend 0.01151 time doing array reduce.
+Worker 8 spend 0.011002 time doing array reduce.
+Worker 9 spend 0.009577 time doing array reduce.
+Worker 10 spend 0.011851 time doing array reduce.
+Worker 11 spend 0.011833 time doing array reduce.
+Total time spend doing array reduce: 0.140148
+BFS algorithm 1, 1 iter on 12 workers: 1.0944080 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/rajat31.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Worker 12 spend 0 time doing array reduce.
+Worker 13 spend 0 time doing array reduce.
+Worker 14 spend 0 time doing array reduce.
+Worker 15 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.007417 time doing array reduce.
+Worker 1 spend 0.008638 time doing array reduce.
+Worker 2 spend 0.008388 time doing array reduce.
+Worker 3 spend 0.008833 time doing array reduce.
+Worker 4 spend 0.009346 time doing array reduce.
+Worker 5 spend 0.00911 time doing array reduce.
+Worker 6 spend 0.00911 time doing array reduce.
+Worker 7 spend 0.010087 time doing array reduce.
+Worker 8 spend 0.008242 time doing array reduce.
+Worker 9 spend 0.008693 time doing array reduce.
+Worker 10 spend 0.009697 time doing array reduce.
+Worker 11 spend 0.007646 time doing array reduce.
+Worker 12 spend 0.009462 time doing array reduce.
+Worker 13 spend 0.009206 time doing array reduce.
+Worker 14 spend 0.009865 time doing array reduce.
+Worker 15 spend 0.009815 time doing array reduce.
+Total time spend doing array reduce: 0.143555
+BFS algorithm 1, 1 iter on 16 workers: 1.2240360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+BFS algorithm 1, 1 iter on  1 workers: 4.2539360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.201988 time doing array reduce.
+Worker 1 spend 0.183797 time doing array reduce.
+Total time spend doing array reduce: 0.385785
+BFS algorithm 1, 1 iter on  2 workers: 3.4709270 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.196219 time doing array reduce.
+Worker 1 spend 0.250893 time doing array reduce.
+Worker 2 spend 0.311374 time doing array reduce.
+Worker 3 spend 0.13129 time doing array reduce.
+Total time spend doing array reduce: 0.889776
+BFS algorithm 1, 1 iter on  4 workers: 2.5011170 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.109428 time doing array reduce.
+Worker 1 spend 0.172729 time doing array reduce.
+Worker 2 spend 0.124475 time doing array reduce.
+Worker 3 spend 0.242282 time doing array reduce.
+Worker 4 spend 0.194135 time doing array reduce.
+Worker 5 spend 0.146991 time doing array reduce.
+Worker 6 spend 0.174746 time doing array reduce.
+Worker 7 spend 0.113993 time doing array reduce.
+Total time spend doing array reduce: 1.27878
+BFS algorithm 1, 1 iter on  8 workers: 2.0678550 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.109874 time doing array reduce.
+Worker 1 spend 0.148421 time doing array reduce.
+Worker 2 spend 0.151372 time doing array reduce.
+Worker 3 spend 0.181511 time doing array reduce.
+Worker 4 spend 0.10234 time doing array reduce.
+Worker 5 spend 0.103022 time doing array reduce.
+Worker 6 spend 0.194697 time doing array reduce.
+Worker 7 spend 0.203809 time doing array reduce.
+Worker 8 spend 0.105986 time doing array reduce.
+Worker 9 spend 0.13777 time doing array reduce.
+Worker 10 spend 0.067661 time doing array reduce.
+Worker 11 spend 0.159527 time doing array reduce.
+Total time spend doing array reduce: 1.66599
+BFS algorithm 1, 1 iter on 12 workers: 2.1827380 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Worker 12 spend 0 time doing array reduce.
+Worker 13 spend 0 time doing array reduce.
+Worker 14 spend 0 time doing array reduce.
+Worker 15 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.128236 time doing array reduce.
+Worker 1 spend 0.131837 time doing array reduce.
+Worker 2 spend 0.105809 time doing array reduce.
+Worker 3 spend 0.121842 time doing array reduce.
+Worker 4 spend 0.130902 time doing array reduce.
+Worker 5 spend 0.126516 time doing array reduce.
+Worker 6 spend 0.190454 time doing array reduce.
+Worker 7 spend 0.066571 time doing array reduce.
+Worker 8 spend 0.166997 time doing array reduce.
+Worker 9 spend 0.121506 time doing array reduce.
+Worker 10 spend 0.149133 time doing array reduce.
+Worker 11 spend 0.118701 time doing array reduce.
+Worker 12 spend 0.105329 time doing array reduce.
+Worker 13 spend 0.074312 time doing array reduce.
+Worker 14 spend 0.085891 time doing array reduce.
+Worker 15 spend 0.17094 time doing array reduce.
+Total time spend doing array reduce: 1.99498
+BFS algorithm 1, 1 iter on 16 workers: 2.3899670 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+BFS algorithm 1, 1 iter on  1 workers: 1.1247120 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.086917 time doing array reduce.
+Worker 1 spend 0.102627 time doing array reduce.
+Total time spend doing array reduce: 0.189544
+BFS algorithm 1, 1 iter on  2 workers: 0.9963980 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.078551 time doing array reduce.
+Worker 1 spend 0.061944 time doing array reduce.
+Worker 2 spend 0.08716 time doing array reduce.
+Worker 3 spend 0.060565 time doing array reduce.
+Total time spend doing array reduce: 0.28822
+BFS algorithm 1, 1 iter on  4 workers: 0.7436450 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.039849 time doing array reduce.
+Worker 1 spend 0.057406 time doing array reduce.
+Worker 2 spend 0.048934 time doing array reduce.
+Worker 3 spend 0.072748 time doing array reduce.
+Worker 4 spend 0.05315 time doing array reduce.
+Worker 5 spend 0.039763 time doing array reduce.
+Worker 6 spend 0.055022 time doing array reduce.
+Worker 7 spend 0.069243 time doing array reduce.
+Total time spend doing array reduce: 0.436115
+BFS algorithm 1, 1 iter on  8 workers: 0.6544760 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.044458 time doing array reduce.
+Worker 1 spend 0.031223 time doing array reduce.
+Worker 2 spend 0.047183 time doing array reduce.
+Worker 3 spend 0.046446 time doing array reduce.
+Worker 4 spend 0.040618 time doing array reduce.
+Worker 5 spend 0.057704 time doing array reduce.
+Worker 6 spend 0.038953 time doing array reduce.
+Worker 7 spend 0.041089 time doing array reduce.
+Worker 8 spend 0.04664 time doing array reduce.
+Worker 9 spend 0.034775 time doing array reduce.
+Worker 10 spend 0.026543 time doing array reduce.
+Worker 11 spend 0.035874 time doing array reduce.
+Total time spend doing array reduce: 0.491506
+BFS algorithm 1, 1 iter on 12 workers: 0.6780840 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Worker 12 spend 0 time doing array reduce.
+Worker 13 spend 0 time doing array reduce.
+Worker 14 spend 0 time doing array reduce.
+Worker 15 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.031827 time doing array reduce.
+Worker 1 spend 0.037933 time doing array reduce.
+Worker 2 spend 0.038843 time doing array reduce.
+Worker 3 spend 0.042295 time doing array reduce.
+Worker 4 spend 0.0223 time doing array reduce.
+Worker 5 spend 0.037925 time doing array reduce.
+Worker 6 spend 0.043574 time doing array reduce.
+Worker 7 spend 0.042363 time doing array reduce.
+Worker 8 spend 0.026706 time doing array reduce.
+Worker 9 spend 0.034734 time doing array reduce.
+Worker 10 spend 0.045603 time doing array reduce.
+Worker 11 spend 0.046998 time doing array reduce.
+Worker 12 spend 0.042328 time doing array reduce.
+Worker 13 spend 0.027077 time doing array reduce.
+Worker 14 spend 0.037332 time doing array reduce.
+Worker 15 spend 0.019707 time doing array reduce.
+Total time spend doing array reduce: 0.577545
+BFS algorithm 1, 1 iter on 16 workers: 0.7770320 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+BFS algorithm 1, 1 iter on  1 workers: 5.2644710 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.170042 time doing array reduce.
+Worker 1 spend 0.22076 time doing array reduce.
+Total time spend doing array reduce: 0.390802
+BFS algorithm 1, 1 iter on  2 workers: 3.8386390 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.198163 time doing array reduce.
+Worker 1 spend 0.3025 time doing array reduce.
+Worker 2 spend 0.172738 time doing array reduce.
+Worker 3 spend 0.128926 time doing array reduce.
+Total time spend doing array reduce: 0.802327
+BFS algorithm 1, 1 iter on  4 workers: 2.7940340 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.044086 time doing array reduce.
+Worker 1 spend 0.055192 time doing array reduce.
+Worker 2 spend 0.186534 time doing array reduce.
+Worker 3 spend 0.11567 time doing array reduce.
+Worker 4 spend 0.046475 time doing array reduce.
+Worker 5 spend 0.048619 time doing array reduce.
+Worker 6 spend 0.14276 time doing array reduce.
+Worker 7 spend 0.132781 time doing array reduce.
+Total time spend doing array reduce: 0.772117
+BFS algorithm 1, 1 iter on  8 workers: 2.1227620 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.058022 time doing array reduce.
+Worker 1 spend 0.201401 time doing array reduce.
+Worker 2 spend 0.146811 time doing array reduce.
+Worker 3 spend 0.007858 time doing array reduce.
+Worker 4 spend 0.152997 time doing array reduce.
+Worker 5 spend 0.256812 time doing array reduce.
+Worker 6 spend 0.021346 time doing array reduce.
+Worker 7 spend 0.049745 time doing array reduce.
+Worker 8 spend 0.055606 time doing array reduce.
+Worker 9 spend 0.068265 time doing array reduce.
+Worker 10 spend 0.127985 time doing array reduce.
+Worker 11 spend 0.092195 time doing array reduce.
+Total time spend doing array reduce: 1.23904
+BFS algorithm 1, 1 iter on 12 workers: 2.7272890 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Worker 12 spend 0 time doing array reduce.
+Worker 13 spend 0 time doing array reduce.
+Worker 14 spend 0 time doing array reduce.
+Worker 15 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.017426 time doing array reduce.
+Worker 1 spend 0.238557 time doing array reduce.
+Worker 2 spend 0.115416 time doing array reduce.
+Worker 3 spend 0.070879 time doing array reduce.
+Worker 4 spend 0.095322 time doing array reduce.
+Worker 5 spend 0.189014 time doing array reduce.
+Worker 6 spend 0.095176 time doing array reduce.
+Worker 7 spend 0.047514 time doing array reduce.
+Worker 8 spend 0.042746 time doing array reduce.
+Worker 9 spend 0.099037 time doing array reduce.
+Worker 10 spend 0.043453 time doing array reduce.
+Worker 11 spend 0.134094 time doing array reduce.
+Worker 12 spend 0.011652 time doing array reduce.
+Worker 13 spend 0.021903 time doing array reduce.
+Worker 14 spend 0.042024 time doing array reduce.
+Worker 15 spend 0.105986 time doing array reduce.
+Total time spend doing array reduce: 1.3702
+BFS algorithm 1, 1 iter on 16 workers: 4.7668900 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 1 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+BFS algorithm 1, 1 iter on  1 workers: 3.0064360 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 2 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.017815 time doing array reduce.
+Worker 1 spend 0.127722 time doing array reduce.
+Total time spend doing array reduce: 0.145537
+BFS algorithm 1, 1 iter on  2 workers: 2.0804950 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 4 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.08319 time doing array reduce.
+Worker 1 spend 0.138253 time doing array reduce.
+Worker 2 spend 0.122268 time doing array reduce.
+Worker 3 spend 0.056577 time doing array reduce.
+Total time spend doing array reduce: 0.400288
+BFS algorithm 1, 1 iter on  4 workers: 1.3470680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 8 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.109275 time doing array reduce.
+Worker 1 spend 0.082438 time doing array reduce.
+Worker 2 spend 0.068189 time doing array reduce.
+Worker 3 spend 0.074936 time doing array reduce.
+Worker 4 spend 0.025087 time doing array reduce.
+Worker 5 spend 0.083689 time doing array reduce.
+Worker 6 spend 0.141179 time doing array reduce.
+Worker 7 spend 0.100767 time doing array reduce.
+Total time spend doing array reduce: 0.68556
+BFS algorithm 1, 1 iter on  8 workers: 1.0416680 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 12 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.059295 time doing array reduce.
+Worker 1 spend 0.105018 time doing array reduce.
+Worker 2 spend 0.034063 time doing array reduce.
+Worker 3 spend 0.056158 time doing array reduce.
+Worker 4 spend 0.075814 time doing array reduce.
+Worker 5 spend 0.051435 time doing array reduce.
+Worker 6 spend 0.0556 time doing array reduce.
+Worker 7 spend 0.076466 time doing array reduce.
+Worker 8 spend 0.048554 time doing array reduce.
+Worker 9 spend 0.045199 time doing array reduce.
+Worker 10 spend 0.050732 time doing array reduce.
+Worker 11 spend 0.204998 time doing array reduce.
+Total time spend doing array reduce: 0.863332
+BFS algorithm 1, 1 iter on 12 workers: 1.1835140 seconds, 0 errors.
+
+-------------------------------------------------
+
+START: ./bfs-p.out --nproc 16 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Worker 0 spend 0 time doing array reduce.
+Worker 1 spend 0 time doing array reduce.
+Worker 2 spend 0 time doing array reduce.
+Worker 3 spend 0 time doing array reduce.
+Worker 4 spend 0 time doing array reduce.
+Worker 5 spend 0 time doing array reduce.
+Worker 6 spend 0 time doing array reduce.
+Worker 7 spend 0 time doing array reduce.
+Worker 8 spend 0 time doing array reduce.
+Worker 9 spend 0 time doing array reduce.
+Worker 10 spend 0 time doing array reduce.
+Worker 11 spend 0 time doing array reduce.
+Worker 12 spend 0 time doing array reduce.
+Worker 13 spend 0 time doing array reduce.
+Worker 14 spend 0 time doing array reduce.
+Worker 15 spend 0 time doing array reduce.
+Total time spend doing array reduce: 0
+Worker 0 spend 0.006954 time doing array reduce.
+Worker 1 spend 0.069332 time doing array reduce.
+Worker 2 spend 0.036843 time doing array reduce.
+Worker 3 spend 0.079996 time doing array reduce.
+Worker 4 spend 0.03517 time doing array reduce.
+Worker 5 spend 0.063978 time doing array reduce.
+Worker 6 spend 0.085975 time doing array reduce.
+Worker 7 spend 0.129203 time doing array reduce.
+Worker 8 spend 0.044963 time doing array reduce.
+Worker 9 spend 0.035169 time doing array reduce.
+Worker 10 spend 0.055557 time doing array reduce.
+Worker 11 spend 0.082767 time doing array reduce.
+Worker 12 spend 0.026238 time doing array reduce.
+Worker 13 spend 0.093421 time doing array reduce.
+Worker 14 spend 0.043707 time doing array reduce.
+Worker 15 spend 0.078811 time doing array reduce.
+Total time spend doing array reduce: 0.968084
+BFS algorithm 1, 1 iter on 16 workers: 1.7280110 seconds, 0 errors.
+
+-------------------------------------------------
+

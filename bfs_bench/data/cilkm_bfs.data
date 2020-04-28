@@ -1,0 +1,306 @@
+test_file: tmp.txt.
+num of runs: 1.
+START: ./bfs.out 0 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.907701 s
+Running time 2: 0.914241 s
+Running time 3: 0.907222 s
+Running time 4: 0.907240 s
+Running time 5: 0.907294 s
+Running time 6: 0.907327 s
+Running time 7: 0.907497 s
+Running time 8: 0.907548 s
+Running time 9: 0.907474 s
+Running time 10: 0.907589 s
+Running time average: 0.908113 s
+Std. dev: 0.000005 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.638059 s
+Running time 2: 0.633492 s
+Running time 3: 0.633488 s
+Running time 4: 0.633490 s
+Running time 5: 0.633512 s
+Running time 6: 0.633480 s
+Running time 7: 0.633495 s
+Running time 8: 0.633545 s
+Running time 9: 0.633435 s
+Running time 10: 0.633641 s
+Running time average: 0.633964 s
+Std. dev: 0.000002 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.675070 s
+Running time 2: 0.675619 s
+Running time 3: 0.670990 s
+Running time 4: 0.670986 s
+Running time 5: 0.670957 s
+Running time 6: 0.671037 s
+Running time 7: 0.670981 s
+Running time 8: 0.670938 s
+Running time 9: 0.671001 s
+Running time 10: 0.670952 s
+Running time average: 0.671853 s
+Std. dev: 0.000003 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.023797 s
+Running time 2: 2.018404 s
+Running time 3: 2.018704 s
+Running time 4: 2.018654 s
+Running time 5: 2.018841 s
+Running time 6: 2.018531 s
+Running time 7: 2.018408 s
+Running time 8: 2.018664 s
+Running time 9: 2.018838 s
+Running time 10: 2.019004 s
+Running time average: 2.019184 s
+Std. dev: 0.000003 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.088231 s
+Running time 2: 3.079246 s
+Running time 3: 3.078530 s
+Running time 4: 3.069559 s
+Running time 5: 3.083555 s
+Running time 6: 3.080019 s
+Running time 7: 3.079427 s
+Running time 8: 3.080216 s
+Running time 9: 3.078988 s
+Running time 10: 3.080098 s
+Running time average: 3.079787 s
+Std. dev: 0.000021 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.649271 s
+Running time 2: 2.634074 s
+Running time 3: 2.634640 s
+Running time 4: 2.634303 s
+Running time 5: 2.634576 s
+Running time 6: 2.634439 s
+Running time 7: 2.634519 s
+Running time 8: 2.634170 s
+Running time 9: 2.634499 s
+Running time 10: 2.634468 s
+Running time average: 2.635896 s
+Std. dev: 0.000022 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.636829 s
+Running time 2: 2.631640 s
+Running time 3: 2.631924 s
+Running time 4: 2.631553 s
+Running time 5: 2.631653 s
+Running time 6: 2.631386 s
+Running time 7: 2.631356 s
+Running time 8: 2.631602 s
+Running time 9: 2.631488 s
+Running time 10: 2.631597 s
+Running time average: 2.632103 s
+Std. dev: 0.000003 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs.out 0 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.604375 s
+Running time 2: 3.591863 s
+Running time 3: 3.590275 s
+Running time 4: 3.591151 s
+Running time 5: 3.588927 s
+Running time 6: 3.589553 s
+Running time 7: 3.588932 s
+Running time 8: 3.591324 s
+Running time 9: 3.591565 s
+Running time 10: 3.592240 s
+Running time average: 3.592020 s
+Std. dev: 0.000020 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/kkt_power.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.953867 s
+Running time 2: 0.960915 s
+Running time 3: 0.960938 s
+Running time 4: 0.960965 s
+Running time 5: 0.960902 s
+Running time 6: 0.960956 s
+Running time 7: 0.961098 s
+Running time 8: 0.961003 s
+Running time 9: 0.961182 s
+Running time 10: 0.961072 s
+Running time average: 0.960290 s
+Std. dev: 0.000005 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/freescale1.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.737898 s
+Running time 2: 0.731754 s
+Running time 3: 0.731708 s
+Running time 4: 0.731718 s
+Running time 5: 0.731809 s
+Running time 6: 0.731630 s
+Running time 7: 0.731608 s
+Running time 8: 0.731209 s
+Running time 9: 0.731674 s
+Running time 10: 0.731726 s
+Running time average: 0.732273 s
+Std. dev: 0.000004 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/vanHeukelum-cage14.bin   
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 0.835254 s
+Running time 2: 0.836230 s
+Running time 3: 0.836239 s
+Running time 4: 0.836341 s
+Running time 5: 0.836301 s
+Running time 6: 0.836326 s
+Running time 7: 0.836450 s
+Running time 8: 0.836442 s
+Running time 9: 0.836442 s
+Running time 10: 0.836246 s
+Running time average: 0.836227 s
+Std. dev: 0.000000 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/wikipedia-20070206.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 2.534901 s
+Running time 2: 2.517763 s
+Running time 3: 2.518286 s
+Running time 4: 2.517581 s
+Running time 5: 2.517986 s
+Running time 6: 2.517762 s
+Running time 7: 2.517763 s
+Running time 8: 2.517989 s
+Running time 9: 2.517477 s
+Running time 10: 2.518044 s
+Running time average: 2.519555 s
+Std. dev: 0.000029 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/grid3d-200.bin  
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.514984 s
+Running time 2: 3.486994 s
+Running time 3: 3.485977 s
+Running time 4: 3.486571 s
+Running time 5: 3.487706 s
+Running time 6: 3.488286 s
+Running time 7: 3.486055 s
+Running time 8: 3.486989 s
+Running time 9: 3.487618 s
+Running time 10: 3.487713 s
+Running time average: 3.489889 s
+Std. dev: 0.000078 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/rmat23-denser-unbalanced.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 4.357977 s
+Running time 2: 4.323059 s
+Running time 3: 4.325703 s
+Running time 4: 4.325176 s
+Running time 5: 4.324863 s
+Running time 6: 4.325330 s
+Running time 7: 4.325196 s
+Running time 8: 4.325346 s
+Running time 9: 4.326033 s
+Running time 10: 4.325784 s
+Running time average: 4.328447 s
+Std. dev: 0.000108 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/vanHeukelum-cage15.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 3.311489 s
+Running time 2: 3.306946 s
+Running time 3: 3.307657 s
+Running time 4: 3.307153 s
+Running time 5: 3.307558 s
+Running time 6: 3.307551 s
+Running time 7: 3.306865 s
+Running time 8: 3.307416 s
+Running time 9: 3.306958 s
+Running time 10: 3.307631 s
+Running time average: 3.307722 s
+Std. dev: 0.000002 s (0.00%)
+
+-------------------------------------------------
+
+START: ./bfs-pp.out 0 test_graphs/nlpkkt160.bin
+Executing the user program using Cilk-M runtime.
+Parallel reduce is allowed.
+BFS algorithm 0, 1 iter on  1 workers, 0 errors.
+Running time 1: 4.024911 s
+Running time 2: 3.997151 s
+Running time 3: 3.996546 s
+Running time 4: 3.995097 s
+Running time 5: 3.994697 s
+Running time 6: 3.995571 s
+Running time 7: 3.995278 s
+Running time 8: 3.996790 s
+Running time 9: 3.996449 s
+Running time 10: 3.996560 s
+Running time average: 3.998905 s
+Std. dev: 0.000084 s (0.00%)
+
+-------------------------------------------------
+
