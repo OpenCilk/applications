@@ -28,6 +28,8 @@
 
 #include "bzlib_private.h"
 
+#include <assert.h>
+
 #ifdef BZLIB_CILK
 #include <errno.h>
 #include <list>

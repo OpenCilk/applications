@@ -23,6 +23,7 @@
 #define _BZLIB_PRIVATE_H
 
 #include <stdlib.h>
+#include <stdint.h>
 
 #ifndef BZ_NO_STDIO
 #include <stdio.h>
