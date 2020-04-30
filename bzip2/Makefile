@@ -14,12 +14,9 @@
 
 SHELL=/bin/sh
 
+include ../config.mk
+
 # To assist in cross-compiling
-CC=/usr/home/jfc/build/opencilk/bin/clang
-CXX=/usr/home/jfc/build/opencilk/bin/clang++
-OPT=-O2
-DBG=-g3
-CILK=-fopencilk
 ARCH=-mavx2
 AR=ar
 RANLIB=ranlib
@@ -27,7 +24,7 @@ LDFLAGS=
 
 BIGFILES=-D_FILE_OFFSET_BITS=64
 PARALLEL=-DBZLIB_CILK
-CFLAGS=-Wall -Winline -Werror $(ARCH) $(OPT) $(DBG) $(BIGFILES) $(CILK) $(PARALLEL)
+CFLAGS=-Wall -Winline -Werror $(ARCH) $(OPT) $(DBG) $(BIGFILES) $(CILKFLAG) $(PARALLEL)
 
 # Where you want it installed when you do 'make install'
 PREFIX=/usr/local
