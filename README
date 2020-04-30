@@ -1,0 +1,7 @@
+This repository contains Cilk applications and demonstration programs
+developed by MIT, Cilk Arts, and Intel.
+
+bfs_bench (Demo, MIT) Parallel breadth-first search
+bzip2 (Application, Cilk Arts) Parallel bzip2
+chess (Demo, Intel) Chess board covering program
+qsort (Demo, Cilk Arts) Parallel quicksort
