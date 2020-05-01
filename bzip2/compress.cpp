@@ -35,7 +35,11 @@
 #include <list>
 #include <sys/stat.h>
 #include <sys/mman.h>
+#include <cilk/cilk.h>
+#include "../reducer/opencilk_reducer.hpp"
 #endif
+
+#include "../reducer/opencilk_reducer.cpp"
 
 /*---------------------------------------------------*/
 /*--- Bit stream I/O                              ---*/
@@ -928,9 +932,9 @@ void writer::reduce(writer *right)
     return;
 }
 
-#ifdef __cilkplusplus
-typedef cilk::hyperobject<writer> hyper_writer;
-#define VIEW(x) (x)()
+#ifdef __cilk
+typedef opencilk_reducer<writer> hyper_writer;
+#define VIEW(x) (x).view()
 #else
 typedef writer hyper_writer;
 #define cilk_spawn

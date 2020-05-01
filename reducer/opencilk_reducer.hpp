@@ -1,4 +1,5 @@
 #ifndef OPENCILK_REDUCER_H
+#define OPENCILK_REDUCER_H
 #include <cilk/hyperobject_base.h>
 #include <new>
 #include <stdlib.h>
