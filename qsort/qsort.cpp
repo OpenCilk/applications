@@ -24,6 +24,7 @@
  * Modified for OpenCilk April 2020.
  */
 #include <algorithm>
+#include <cilk/cilk.h>
 #include <iostream>
 #include <time.h>
 
@@ -44,9 +45,9 @@ void sample_qsort(T * begin, T * end)
             [pivot = *end](T a) -> bool { return a < pivot; });
         using std::swap;
         swap(*end, *middle);    // move pivot to middle
-        _Cilk_spawn sample_qsort(begin, middle);
+        cilk_spawn sample_qsort(begin, middle);
         sample_qsort(++middle, ++end); // Exclude pivot and restore end
-        _Cilk_sync;
+        cilk_sync;
     }
 }
 
