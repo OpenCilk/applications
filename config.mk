@@ -1,7 +1,8 @@
-OPENCILK_PREFIX=
-CC=$(OPENCILK_PREFIX)clang
-CXX=$(OPENCILK_PREFIX)clang++
+OPENCILK_BUILD=
+CC=$(OPENCILK_BUILD)clang
+CXX=$(OPENCILK_BUILD)clang++
 CILKFLAG=-fopencilk
 OPT=-O2
 DBG=-g3
-ARCH=-mavx2
+ARCH=-mavx -march=sandybridge
+TOOL=
