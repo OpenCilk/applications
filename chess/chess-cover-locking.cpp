@@ -593,7 +593,7 @@ void Search( const Board& b ) {
 //! Report statistics.
 void Report() {
 #if PARALLEL
-    int p = __cilkrts_get_nworkers();
+    int p = 2/* __cilkrts_get_nworkers()*/;
 #else
     int p = 1;
 #endif
