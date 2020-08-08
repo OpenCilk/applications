@@ -1,4 +1,4 @@
 include ../config.mk
 
 qsort: qsort.cpp
-	$(CXX) -fopencilk -O -mavx2 -o qsort qsort.cpp
+	$(CXX) $(CILKFLAG) $(OPT) $(DBG) $(ARCH) $(TOOL) -o qsort qsort.cpp
