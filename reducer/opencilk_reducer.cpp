@@ -30,16 +30,12 @@ extern "C" void destroy_fn(void *reducer NN, void *view NN) {
     opencilk_reducer_base::cast(h)->destroy(reducer, view);
 }
 
-extern "C" void *allocate_fn(void *reducer NN, size_t bytes) {
-    __cilkrts_hyperobject_base *h =
-        static_cast<__cilkrts_hyperobject_base *>(reducer);
-    return opencilk_reducer_base::cast(h)->allocate(reducer, bytes);
+extern "C" void *allocate_fn(struct __cilkrts_hyperobject_base *reducer NN, size_t bytes) {
+    return opencilk_reducer_base::cast(reducer)->allocate(reducer, bytes);
 }
 
-extern "C" void deallocate_fn(void *reducer NN, void *view) {
-    __cilkrts_hyperobject_base *h =
-        static_cast<__cilkrts_hyperobject_base *>(reducer);
-    opencilk_reducer_base::cast(h)->deallocate(reducer, view);
+extern "C" void deallocate_fn(struct __cilkrts_hyperobject_base *reducer NN, void *view) {
+    opencilk_reducer_base::cast(reducer)->deallocate(reducer, view);
 }
 
 } // namespace
