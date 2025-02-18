@@ -49,8 +49,8 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 #if PARALLEL
 #include <cilk/cilk.h>
 #include <cilk/cilk_api.h>
-#include <cilk/reducer_opadd.h>
-#include <cilk/reducer_ostream.h>
+#include <cilk/opadd_reducer.h>
+#include <cilk/ostream_reducer.h>
 #else
 #define cilk_spawn
 #endif
@@ -507,8 +507,8 @@ int Board::chooseAxis() const {
 }
 
 #if PARALLEL
-cilk::reducer_opadd<int> WeakCount;
-cilk::reducer_ostream Output(std::cout);
+cilk::opadd_reducer<int> WeakCount;
+cilk::ostream_reducer<char> Output(std::cout);
 #else
 int WeakCount;
 std::ostream& Output(std::cout);
@@ -541,8 +541,8 @@ void Search( const Board& b ) {
 //! Report statistics.
 void Report() {
 #if PARALLEL
-    int p = 2/* __cilkrts_get_nworkers()*/;
-    int w = WeakCount.get_value();
+    int p = __cilkrts_get_nworkers();
+    int w = WeakCount;
 #else
     int p = 1;
     int w = WeakCount;
