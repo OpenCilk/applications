@@ -39,8 +39,6 @@
 #include "../reducer/opencilk_reducer.hpp"
 #endif
 
-#include "../reducer/opencilk_reducer.cpp"
-
 /*---------------------------------------------------*/
 /*--- Bit stream I/O                              ---*/
 /*---------------------------------------------------*/

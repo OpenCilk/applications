@@ -17,7 +17,6 @@ SHELL=/bin/sh
 include ../config.mk
 
 # To assist in cross-compiling
-ARCH=-mavx2
 AR=ar
 RANLIB=ranlib
 LDFLAGS=
